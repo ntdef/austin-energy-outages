@@ -17,7 +17,7 @@ jobs:
       with:
         python-version: '3.12'
         cache: 'pip' # caching pip dependencies
-      run: pip install kura
+    - run: pip install kura
     - name: Fetch data
       run: kubra dd9c446f-f6b8-43f9-8f80-83f5245c60a1 76446308-a901-4fa3-849c-3dd569933a51 > outages.geojson
     - name: Commit and push if it changed
