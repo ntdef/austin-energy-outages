@@ -13,10 +13,10 @@ jobs:
     - name: Check out this repo
       uses: actions/checkout@v2
     - uses: actions/setup-python@v5
-    - name: Fetch data
       with: 
         python-version: '3.12'
-    - run: python scrape.py > outages.json
+    - name: Fetch data
+      run: python scrape.py > outages.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
