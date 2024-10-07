@@ -3,33 +3,37 @@
     {
       "geometry": {
         "coordinates": [
-          -97.85607,
-          30.23621
+          -97.88963,
+          30.30198
         ],
         "type": "Point"
       },
       "properties": {
         "desc": {
-          "cause": {},
+          "cause": {
+            "EN-US": "Maintenance scheduled today in your area may require an interruption in electric service. Safety of our crews and customers is our top priority.",
+            "ES-ES": "Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. La seguridad de nuestros empleados y clientes es nuestra mayor prioridad.",
+            "orig": "Planned"
+          },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
           },
           "cust_a": {
-            "val": 6
+            "val": 3
           },
-          "etr": "ETR-EXP",
+          "etr": "2024-10-08T00:22:33Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2024-10-07T09:20:01Z"
+          "start_time": "2024-10-07T22:07:33Z"
         },
         "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/5735a216-9982-4b79-885d-ca52c1a62d41/public/cluster-1/0231301.json",
+        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/7b22df58-83af-43df-8d19-ed9440d24811/public/cluster-1/0231301.json",
         "title": "Area Outage"
       },
       "type": "Feature"
