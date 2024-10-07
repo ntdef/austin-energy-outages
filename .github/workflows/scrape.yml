@@ -20,11 +20,31 @@ jobs:
       run: pip install -r requirements.txt
     - name: Fetch data
       run: python scrape.py dd9c446f-f6b8-43f9-8f80-83f5245c60a1 76446308-a901-4fa3-849c-3dd569933a51 > outages.geojson
+    - name: Reformat JSON
+      run: |
+        cat outages.geojson |
+        jq '.features | 
+          map(. | { 
+            lat: .geometry.coordinates[1], 
+            lon: .geometry.coordinates[0], 
+            source: .properties.source, 
+            cause: .properties.desc.cause["EN-US"], 
+            cause_orig: .properties.desc.cause.orig , 
+            cluster: .properties.desc.cluster, 
+            crew_status: .properties.desc.crew_status["EN-US"], 
+            crew_status_orig: .properties.desc.crew_status.orig, 
+            start_time: .properties.desc.start_time, 
+            etr: .properties.desc.etr, 
+            n_out: .properties.desc.n_out, 
+            type_id: .properties.id }) | 
+          map(. + {_id: ((.lat|tostring) + (.lon|tostring))})' > outages.json
     - name: Commit and push if it changed
       run: |-
+        csv-diff <(git show HEAD:outages.json 2>/dev/null || echo "[]") outages.json --format json --key _id > message.txt
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
-        git add -A
+        git add outages.json outages.geojson
         timestamp=$(date -u)
-        git commit -m "Latest data: ${timestamp}" || exit 0
+        git commit --allow-empty-message -F message.txt || exit 0
+        git pull --rebase
         git push
