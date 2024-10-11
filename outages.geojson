@@ -3,37 +3,67 @@
     {
       "geometry": {
         "coordinates": [
-          -97.74614,
-          30.37341
+          -97.74569,
+          30.37299
         ],
         "type": "Point"
       },
       "properties": {
         "desc": {
-          "cause": {
-            "EN-US": "Maintenance scheduled today in your area may require an interruption in electric service. Safety of our crews and customers is our top priority.",
-            "ES-ES": "Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. La seguridad de nuestros empleados y clientes es nuestra mayor prioridad.",
-            "orig": "Planned"
-          },
-          "cluster": false,
+          "cause": null,
+          "cluster": true,
           "comments": null,
-          "crew_icon": true,
-          "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "orig": "Onsite"
-          },
+          "crew_icon": false,
+          "crew_status": null,
           "cust_a": {
-            "val": 10
+            "val": 53
           },
-          "etr": "ETR-EXP",
+          "etr": "2024-10-11T19:15:12Z",
           "etr_confidence": null,
           "inc_id": null,
-          "n_out": 1,
+          "n_out": 2,
+          "outages": [
+            {
+              "cause": {
+                "EN-US": "Under Investigation",
+                "ES-ES": "Investigaci\u00f3n en curso",
+                "orig": "No Selection"
+              },
+              "crew_icon": false,
+              "crew_status": {
+                "EN-US": "Pending",
+                "ES-ES": "Pendiente",
+                "orig": "N/A"
+              },
+              "cust_a": {
+                "val": 43
+              },
+              "etr": "2024-10-11T19:15:12Z",
+              "start_time": "2024-10-11T16:11:01Z"
+            },
+            {
+              "cause": {
+                "EN-US": "Maintenance scheduled today in your area may require an interruption in electric service. Safety of our crews and customers is our top priority.",
+                "ES-ES": "Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. La seguridad de nuestros empleados y clientes es nuestra mayor prioridad.",
+                "orig": "Planned"
+              },
+              "crew_icon": true,
+              "crew_status": {
+                "EN-US": "One or more crews have been assigned. ",
+                "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+                "orig": "Onsite"
+              },
+              "cust_a": {
+                "val": 10
+              },
+              "etr": "2024-10-11T18:06:20Z",
+              "start_time": "2024-10-11T11:29:27Z"
+            }
+          ],
           "start_time": "2024-10-11T11:29:27Z"
         },
-        "id": "9-0",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/5f19ccae-a66a-48ea-9cfe-cedc4cd1ce44/public/cluster-1/023130120.json",
+        "id": "14-0",
+        "source": "https://kubra.io/cluster-data/331/20d293c6-08fd-41b3-b96b-d2f522c74990/338403c7-2476-42c0-9e4d-e47713e4818b/public/cluster-1/02313012031133.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -71,7 +101,7 @@
           "start_time": "2024-10-10T19:45Z"
         },
         "id": "9-0",
-        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/5f19ccae-a66a-48ea-9cfe-cedc4cd1ce44/public/cluster-1/023130121.json",
+        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/338403c7-2476-42c0-9e4d-e47713e4818b/public/cluster-1/023130121.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -79,17 +109,17 @@
     {
       "geometry": {
         "coordinates": [
-          -97.73358,
-          30.26248
+          -97.5836,
+          30.32161
         ],
         "type": "Point"
       },
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "An animal came in contact with equipment",
-            "ES-ES": "Un animal entr\u00f3 en contacto con el equipo",
-            "orig": "Animal"
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
           },
           "cluster": false,
           "comments": null,
@@ -97,19 +127,57 @@
           "crew_status": {
             "EN-US": "One or more crews have been assigned. ",
             "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "orig": "Onsite"
+            "orig": "En Route"
           },
           "cust_a": {
-            "val": 2
+            "val": 60
           },
-          "etr": "2024-10-11T17:31:37Z",
+          "etr": "2024-10-11T18:04:20Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2024-10-11T12:42:08Z"
+          "start_time": "2024-10-11T15:45Z"
         },
         "id": "9-1",
-        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/5f19ccae-a66a-48ea-9cfe-cedc4cd1ce44/public/cluster-1/023130121.json",
+        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/338403c7-2476-42c0-9e4d-e47713e4818b/public/cluster-1/023130121.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.72175,
+          30.27184
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 25
+          },
+          "etr": "2024-10-11T19:29:57Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2024-10-11T16:13:34Z"
+        },
+        "id": "9-2",
+        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/338403c7-2476-42c0-9e4d-e47713e4818b/public/cluster-1/023130121.json",
         "title": "Area Outage"
       },
       "type": "Feature"
