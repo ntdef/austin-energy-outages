@@ -33,7 +33,7 @@
           "start_time": "2024-10-12T08:58:13Z"
         },
         "id": "10-0",
-        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/cd001fd3-a040-45b5-9e8e-e131d1de6f82/public/cluster-1/0231301203.json",
+        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/5fed0aa5-f2e1-40b0-838f-32d58020b9eb/public/cluster-1/0231301203.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -64,14 +64,14 @@
           "cust_a": {
             "val": 3
           },
-          "etr": "2024-10-12T15:28:54Z",
+          "etr": "ETR-EXP",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
           "start_time": "2024-10-12T12:28:49Z"
         },
         "id": "10-1",
-        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/cd001fd3-a040-45b5-9e8e-e131d1de6f82/public/cluster-1/0231301203.json",
+        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/5fed0aa5-f2e1-40b0-838f-32d58020b9eb/public/cluster-1/0231301203.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -79,37 +79,67 @@
     {
       "geometry": {
         "coordinates": [
-          -97.72561,
-          30.3529
+          -97.72526,
+          30.35245
         ],
         "type": "Point"
       },
       "properties": {
         "desc": {
-          "cause": {
-            "EN-US": "Electrical equipment failure",
-            "ES-ES": "Falla del equipo el\u00e9ctrico",
-            "orig": "Equipment"
-          },
-          "cluster": false,
+          "cause": null,
+          "cluster": true,
           "comments": null,
           "crew_icon": false,
-          "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "orig": "N/A"
-          },
+          "crew_status": null,
           "cust_a": {
-            "val": 1
+            "val": 2
           },
           "etr": "2024-10-13T20:30:00Z",
           "etr_confidence": null,
           "inc_id": null,
-          "n_out": 1,
+          "n_out": 2,
+          "outages": [
+            {
+              "cause": {
+                "EN-US": "Electrical equipment failure",
+                "ES-ES": "Falla del equipo el\u00e9ctrico",
+                "orig": "Equipment"
+              },
+              "crew_icon": false,
+              "crew_status": {
+                "EN-US": "Pending",
+                "ES-ES": "Pendiente",
+                "orig": "N/A"
+              },
+              "cust_a": {
+                "val": 1
+              },
+              "etr": "2024-10-13T20:30:00Z",
+              "start_time": "2024-10-12T12:51:02Z"
+            },
+            {
+              "cause": {
+                "EN-US": "Under Investigation",
+                "ES-ES": "Investigaci\u00f3n en curso",
+                "orig": "No Selection"
+              },
+              "crew_icon": false,
+              "crew_status": {
+                "EN-US": "Pending",
+                "ES-ES": "Pendiente",
+                "orig": "N/A"
+              },
+              "cust_a": {
+                "val": 1
+              },
+              "etr": "2024-10-12T17:44:32Z",
+              "start_time": "2024-10-12T15:27Z"
+            }
+          ],
           "start_time": "2024-10-12T12:51:02Z"
         },
-        "id": "9-0",
-        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/cd001fd3-a040-45b5-9e8e-e131d1de6f82/public/cluster-1/023130121.json",
+        "id": "14-0",
+        "source": "https://kubra.io/cluster-data/202/20d293c6-08fd-41b3-b96b-d2f522c74990/5fed0aa5-f2e1-40b0-838f-32d58020b9eb/public/cluster-1/02313012120202.json",
         "title": "Area Outage"
       },
       "type": "Feature"
