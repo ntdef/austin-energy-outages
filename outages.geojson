@@ -3,8 +3,8 @@
     {
       "geometry": {
         "coordinates": [
-          -97.83227,
-          30.30534
+          -97.83275,
+          30.3047
         ],
         "type": "Point"
       },
@@ -24,16 +24,54 @@
             "orig": "Onsite"
           },
           "cust_a": {
-            "val": 15
+            "val": 12
           },
-          "etr": "2024-10-12T12:07:01Z",
+          "etr": "ETR-EXP",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
           "start_time": "2024-10-12T08:13:47Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/fa3c5dcd-3730-4cbd-a22c-496cb51aebf1/public/cluster-1/0231301.json",
+        "id": "14-0",
+        "source": "https://kubra.io/cluster-data/332/20d293c6-08fd-41b3-b96b-d2f522c74990/13008319-ceeb-40bd-9324-ca20b84600df/public/cluster-1/02313012031233.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.83035,
+          30.3079
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Electrical equipment failure",
+            "ES-ES": "Falla del equipo el\u00e9ctrico",
+            "orig": "Equipment"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 3
+          },
+          "etr": "2024-10-12T14:36:09Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2024-10-12T08:13:47Z"
+        },
+        "id": "14-1",
+        "source": "https://kubra.io/cluster-data/332/20d293c6-08fd-41b3-b96b-d2f522c74990/13008319-ceeb-40bd-9324-ca20b84600df/public/cluster-1/02313012031233.json",
         "title": "Area Outage"
       },
       "type": "Feature"
