@@ -26,14 +26,14 @@
           "cust_a": {
             "val": 36
           },
-          "etr": "2024-10-22T12:17:47Z",
+          "etr": "ETR-EXP",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
           "start_time": "2024-10-22T09:59:02Z"
         },
-        "id": "14-0",
-        "source": "https://kubra.io/cluster-data/200/20d293c6-08fd-41b3-b96b-d2f522c74990/868bac6f-be11-4440-b532-62bb342899cb/public/cluster-1/02313012122002.json",
+        "id": "13-0",
+        "source": "https://kubra.io/cluster-data/002/20d293c6-08fd-41b3-b96b-d2f522c74990/5f70a265-53f5-4195-a98a-e7984505a04d/public/cluster-1/0231301212200.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -66,8 +66,8 @@
           "n_out": 1,
           "start_time": "2024-10-19T14:02Z"
         },
-        "id": "14-1",
-        "source": "https://kubra.io/cluster-data/200/20d293c6-08fd-41b3-b96b-d2f522c74990/868bac6f-be11-4440-b532-62bb342899cb/public/cluster-1/02313012122002.json",
+        "id": "13-1",
+        "source": "https://kubra.io/cluster-data/002/20d293c6-08fd-41b3-b96b-d2f522c74990/5f70a265-53f5-4195-a98a-e7984505a04d/public/cluster-1/0231301212200.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -75,67 +75,37 @@
     {
       "geometry": {
         "coordinates": [
-          -97.71667,
-          30.25936
+          -97.71759,
+          30.25969
         ],
         "type": "Point"
       },
       "properties": {
         "desc": {
-          "cause": null,
-          "cluster": true,
-          "comments": null,
-          "crew_icon": false,
-          "crew_status": null,
-          "cust_a": {
-            "val": 119
+          "cause": {
+            "EN-US": "An obstruction to the electrical grid has occurred (e.g., a traffic accident). Restoration time depends on the extent of the damage.",
+            "ES-ES": "Se ha producido una obstrucci\u00f3n a la red el\u00e9ctrica (por ejemplo, un accidente de tr\u00e1fico). El tiempo de restauraci\u00f3n depende de la extensi\u00f3n del da\u00f1o.",
+            "orig": "Interference"
           },
-          "etr": "2024-10-22T13:46:29Z",
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
+          },
+          "cust_a": {
+            "val": 82
+          },
+          "etr": "ETR-EXP",
           "etr_confidence": null,
           "inc_id": null,
-          "n_out": 2,
-          "outages": [
-            {
-              "cause": {
-                "EN-US": "Under Investigation",
-                "ES-ES": "Investigaci\u00f3n en curso",
-                "orig": "No Selection"
-              },
-              "crew_icon": false,
-              "crew_status": {
-                "EN-US": "Pending",
-                "ES-ES": "Pendiente",
-                "orig": "N/A"
-              },
-              "cust_a": {
-                "val": 1
-              },
-              "etr": "2024-10-22T13:46:29Z",
-              "start_time": "2024-10-22T11:31:24Z"
-            },
-            {
-              "cause": {
-                "EN-US": "An obstruction to the electrical grid has occurred (e.g., a traffic accident). Restoration time depends on the extent of the damage.",
-                "ES-ES": "Se ha producido una obstrucci\u00f3n a la red el\u00e9ctrica (por ejemplo, un accidente de tr\u00e1fico). El tiempo de restauraci\u00f3n depende de la extensi\u00f3n del da\u00f1o.",
-                "orig": "Interference"
-              },
-              "crew_icon": true,
-              "crew_status": {
-                "EN-US": "One or more crews have been assigned. ",
-                "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-                "orig": "Onsite"
-              },
-              "cust_a": {
-                "val": 118
-              },
-              "etr": "ETR-EXP",
-              "start_time": "2024-10-22T09:19:34Z"
-            }
-          ],
+          "n_out": 1,
           "start_time": "2024-10-22T09:19:34Z"
         },
-        "id": "14-2",
-        "source": "https://kubra.io/cluster-data/200/20d293c6-08fd-41b3-b96b-d2f522c74990/868bac6f-be11-4440-b532-62bb342899cb/public/cluster-1/02313012122002.json",
+        "id": "13-2",
+        "source": "https://kubra.io/cluster-data/002/20d293c6-08fd-41b3-b96b-d2f522c74990/5f70a265-53f5-4195-a98a-e7984505a04d/public/cluster-1/0231301212200.json",
         "title": "Area Outage"
       },
       "type": "Feature"
