@@ -3,8 +3,8 @@
     {
       "geometry": {
         "coordinates": [
-          -97.71717,
-          30.37025
+          -97.76173,
+          30.29171
         ],
         "type": "Point"
       },
@@ -24,16 +24,54 @@
             "orig": "En Route"
           },
           "cust_a": {
+            "val": 2
+          },
+          "etr": "2024-11-02T00:12:52Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2024-11-01T21:54Z"
+        },
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/279f5e6c-24e5-49e9-a302-620c1fdbf85e/public/cluster-1/023130120.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.71717,
+          30.37025
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "An obstruction to the electrical grid has occurred (e.g., a traffic accident). Restoration time depends on the extent of the damage.",
+            "ES-ES": "Se ha producido una obstrucci\u00f3n a la red el\u00e9ctrica (por ejemplo, un accidente de tr\u00e1fico). El tiempo de restauraci\u00f3n depende de la extensi\u00f3n del da\u00f1o.",
+            "orig": "Interference"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
+          },
+          "cust_a": {
             "val": 237
           },
-          "etr": "2024-11-01T23:41:35Z",
+          "etr": "2024-11-01T23:39:37Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
           "start_time": "2024-11-01T21:22:25Z"
         },
-        "id": "10-0",
-        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/46879bea-9a9b-44c8-a8b6-84ccf829f93f/public/cluster-1/0231301212.json",
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/279f5e6c-24e5-49e9-a302-620c1fdbf85e/public/cluster-1/023130121.json",
         "title": "Area Outage"
       },
       "type": "Feature"
