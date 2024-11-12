@@ -3,8 +3,8 @@
     {
       "geometry": {
         "coordinates": [
-          -97.74484,
-          30.31612
+          -97.74498,
+          30.31624
         ],
         "type": "Point"
       },
@@ -16,12 +16,12 @@
           "crew_icon": false,
           "crew_status": null,
           "cust_a": {
-            "val": 2
+            "val": 3
           },
-          "etr": "2024-11-12T12:26:29Z",
+          "etr": "2024-11-12T12:58:13Z",
           "etr_confidence": null,
           "inc_id": null,
-          "n_out": 2,
+          "n_out": 3,
           "outages": [
             {
               "cause": {
@@ -38,8 +38,8 @@
               "cust_a": {
                 "val": 1
               },
-              "etr": "2024-11-12T12:26:29Z",
-              "start_time": "2024-11-12T10:11:27Z"
+              "etr": "2024-11-12T12:56:45Z",
+              "start_time": "2024-11-12T10:41:42Z"
             },
             {
               "cause": {},
@@ -54,12 +54,30 @@
               },
               "etr": "2024-11-12T10:55:04Z",
               "start_time": "2024-11-12T08:40:01Z"
+            },
+            {
+              "cause": {
+                "EN-US": "Under Investigation",
+                "ES-ES": "Investigaci\u00f3n en curso",
+                "orig": "No Selection"
+              },
+              "crew_icon": false,
+              "crew_status": {
+                "EN-US": "Pending",
+                "ES-ES": "Pendiente",
+                "orig": "N/A"
+              },
+              "cust_a": {
+                "val": 1
+              },
+              "etr": "2024-11-12T12:58:13Z",
+              "start_time": "2024-11-12T10:43:10Z"
             }
           ],
           "start_time": "2024-11-12T08:40:01Z"
         },
         "id": "14-0",
-        "source": "https://kubra.io/cluster-data/133/20d293c6-08fd-41b3-b96b-d2f522c74990/43e6109e-f55b-4957-877f-27df9f7b3008/public/cluster-1/02313012031331.json",
+        "source": "https://kubra.io/cluster-data/133/20d293c6-08fd-41b3-b96b-d2f522c74990/33473a6b-3d49-4f89-8dd8-60dc242d57a4/public/cluster-1/02313012031331.json",
         "title": "Area Outage"
       },
       "type": "Feature"
