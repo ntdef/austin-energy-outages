@@ -26,14 +26,14 @@
           "cust_a": {
             "val": 2
           },
-          "etr": "2024-11-19T01:12:56Z",
+          "etr": "ETR-EXP",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
           "start_time": "2024-11-18T15:30Z"
         },
         "id": "10-0",
-        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/2844bf7a-d6ad-4888-8ae7-88bcffd64bfd/public/cluster-1/0231301212.json",
+        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/9340cee3-d896-41ad-bf71-aa50af189240/public/cluster-1/0231301212.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -48,10 +48,44 @@
       },
       "properties": {
         "desc": {
+          "cause": {},
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 1
+          },
+          "etr": "ETR-EXP",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2024-11-18T22:26Z"
+        },
+        "id": "10-1",
+        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/9340cee3-d896-41ad-bf71-aa50af189240/public/cluster-1/0231301212.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.64624,
+          30.28935
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
           "cause": {
-            "EN-US": "Under Investigation",
-            "ES-ES": "Investigaci\u00f3n en curso",
-            "orig": "No Selection"
+            "EN-US": "An obstruction to the electrical grid has occurred (e.g., a traffic accident). Restoration time depends on the extent of the damage.",
+            "ES-ES": "Se ha producido una obstrucci\u00f3n a la red el\u00e9ctrica (por ejemplo, un accidente de tr\u00e1fico). El tiempo de restauraci\u00f3n depende de la extensi\u00f3n del da\u00f1o.",
+            "orig": "Interference"
           },
           "cluster": false,
           "comments": null,
@@ -62,16 +96,16 @@
             "orig": "Onsite"
           },
           "cust_a": {
-            "val": 1
+            "val": 162
           },
-          "etr": "2024-11-19T00:44:19Z",
+          "etr": "2024-11-19T05:00:00Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2024-11-18T22:26Z"
+          "start_time": "2024-11-18T23:53:52Z"
         },
-        "id": "10-1",
-        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/2844bf7a-d6ad-4888-8ae7-88bcffd64bfd/public/cluster-1/0231301212.json",
+        "id": "10-2",
+        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/9340cee3-d896-41ad-bf71-aa50af189240/public/cluster-1/0231301212.json",
         "title": "Area Outage"
       },
       "type": "Feature"
