@@ -3,6 +3,112 @@
     {
       "geometry": {
         "coordinates": [
+          -97.76308,
+          30.4601
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Maintenance scheduled today in your area may require an interruption in electric service. Safety of our crews and customers is our top priority.",
+            "ES-ES": "Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. La seguridad de nuestros empleados y clientes es nuestra mayor prioridad.",
+            "orig": "Planned"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
+          },
+          "cust_a": {
+            "val": 6
+          },
+          "etr": "2024-12-04T17:32:09Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2024-12-04T15:17:19Z"
+        },
+        "id": "10-0",
+        "source": "https://kubra.io/cluster-data/102/20d293c6-08fd-41b3-b96b-d2f522c74990/b38b1d7a-8682-47c1-894b-71999e59e9ba/public/cluster-1/0231301201.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.75766,
+          30.27893
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": null,
+          "cluster": true,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": null,
+          "cust_a": {
+            "val": 19
+          },
+          "etr": "2024-12-04T17:27:28Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 2,
+          "outages": [
+            {
+              "cause": {
+                "EN-US": "Maintenance scheduled today in your area may require an interruption in electric service. Safety of our crews and customers is our top priority.",
+                "ES-ES": "Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. La seguridad de nuestros empleados y clientes es nuestra mayor prioridad.",
+                "orig": "Planned"
+              },
+              "crew_icon": true,
+              "crew_status": {
+                "EN-US": "One or more crews have been assigned. ",
+                "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+                "orig": "Onsite"
+              },
+              "cust_a": {
+                "val": 10
+              },
+              "etr": "2024-12-04T16:39:06Z",
+              "start_time": "2024-12-04T14:23:51Z"
+            },
+            {
+              "cause": {
+                "EN-US": "Maintenance scheduled today in your area may require an interruption in electric service. Safety of our crews and customers is our top priority.",
+                "ES-ES": "Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. La seguridad de nuestros empleados y clientes es nuestra mayor prioridad.",
+                "orig": "Planned"
+              },
+              "crew_icon": false,
+              "crew_status": {
+                "EN-US": "Pending",
+                "ES-ES": "Pendiente",
+                "orig": "N/A"
+              },
+              "cust_a": {
+                "val": 9
+              },
+              "etr": "2024-12-04T17:27:28Z",
+              "start_time": "2024-12-04T15:12:15Z"
+            }
+          ],
+          "start_time": "2024-12-04T14:23:51Z"
+        },
+        "id": "14-0",
+        "source": "https://kubra.io/cluster-data/011/20d293c6-08fd-41b3-b96b-d2f522c74990/b38b1d7a-8682-47c1-894b-71999e59e9ba/public/cluster-1/02313012033110.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -97.84055,
           30.20967
         ],
@@ -17,23 +123,23 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "En Route"
           },
           "cust_a": {
             "val": 159
           },
-          "etr": "2024-12-04T16:53:20Z",
+          "etr": "2024-12-04T17:23:30Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
           "start_time": "2024-12-04T14:36:52Z"
         },
-        "id": "9-0",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/fe9e358f-74fa-4cc3-957d-61947d476857/public/cluster-1/023130120.json",
+        "id": "12-0",
+        "source": "https://kubra.io/cluster-data/233/20d293c6-08fd-41b3-b96b-d2f522c74990/b38b1d7a-8682-47c1-894b-71999e59e9ba/public/cluster-1/023130120332.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -70,8 +176,8 @@
           "n_out": 1,
           "start_time": "2024-12-04T13:58:53Z"
         },
-        "id": "9-1",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/fe9e358f-74fa-4cc3-957d-61947d476857/public/cluster-1/023130120.json",
+        "id": "12-0",
+        "source": "https://kubra.io/cluster-data/333/20d293c6-08fd-41b3-b96b-d2f522c74990/b38b1d7a-8682-47c1-894b-71999e59e9ba/public/cluster-1/023130120333.json",
         "title": "Area Outage"
       },
       "type": "Feature"
