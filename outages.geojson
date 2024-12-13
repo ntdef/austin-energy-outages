@@ -3,17 +3,17 @@
     {
       "geometry": {
         "coordinates": [
-          -97.75247,
-          30.17019
+          -97.75674,
+          30.22131
         ],
         "type": "Point"
       },
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "Under Investigation",
-            "ES-ES": "Investigaci\u00f3n en curso",
-            "orig": "No Selection"
+            "EN-US": "Maintenance scheduled today in your area may require an interruption in electric service. Safety of our crews and customers is our top priority.",
+            "ES-ES": "Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. La seguridad de nuestros empleados y clientes es nuestra mayor prioridad.",
+            "orig": "Planned"
           },
           "cluster": false,
           "comments": null,
@@ -24,16 +24,16 @@
             "orig": "Onsite"
           },
           "cust_a": {
-            "val": 1
+            "val": 3
           },
-          "etr": "ETR-EXP",
+          "etr": "2024-12-13T06:23:37Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2024-12-13T00:08Z"
+          "start_time": "2024-12-13T00:29:11Z"
         },
         "id": "8-0",
-        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/b4b7bf2d-9c8e-40b1-b3c2-36736c4e8ba4/public/cluster-1/02313012.json",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/40d6c500-ef99-4a53-8cfe-04c353900f14/public/cluster-1/02313012.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -51,11 +51,11 @@
           "cause": {},
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
           },
           "cust_a": {
             "val": 9
@@ -67,7 +67,7 @@
           "start_time": "2024-12-13T03:08Z"
         },
         "id": "8-1",
-        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/b4b7bf2d-9c8e-40b1-b3c2-36736c4e8ba4/public/cluster-1/02313012.json",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/40d6c500-ef99-4a53-8cfe-04c353900f14/public/cluster-1/02313012.json",
         "title": "Area Outage"
       },
       "type": "Feature"
