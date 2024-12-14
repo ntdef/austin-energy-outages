@@ -3,8 +3,8 @@
     {
       "geometry": {
         "coordinates": [
-          -97.70178,
-          30.39884
+          -97.70162,
+          30.39876
         ],
         "type": "Point"
       },
@@ -18,10 +18,10 @@
           "cust_a": {
             "val": 45
           },
-          "etr": "ETR-EXP",
+          "etr": "2024-12-14T13:25:54Z",
           "etr_confidence": null,
           "inc_id": null,
-          "n_out": 3,
+          "n_out": 4,
           "outages": [
             {
               "cause": {
@@ -47,6 +47,24 @@
                 "ES-ES": "Falla del equipo el\u00e9ctrico",
                 "orig": "Equipment"
               },
+              "crew_icon": true,
+              "crew_status": {
+                "EN-US": "One or more crews have been assigned. ",
+                "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+                "orig": "Onsite"
+              },
+              "cust_a": {
+                "val": 10
+              },
+              "etr": "ETR-EXP",
+              "start_time": "2024-12-14T04:35:23Z"
+            },
+            {
+              "cause": {
+                "EN-US": "Electrical equipment failure",
+                "ES-ES": "Falla del equipo el\u00e9ctrico",
+                "orig": "Equipment"
+              },
               "crew_icon": false,
               "crew_status": {
                 "EN-US": "Pending",
@@ -65,23 +83,23 @@
                 "ES-ES": "Falla del equipo el\u00e9ctrico",
                 "orig": "Equipment"
               },
-              "crew_icon": true,
+              "crew_icon": false,
               "crew_status": {
-                "EN-US": "One or more crews have been assigned. ",
-                "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-                "orig": "Onsite"
+                "EN-US": "Pending",
+                "ES-ES": "Pendiente",
+                "orig": "N/A"
               },
               "cust_a": {
-                "val": 18
+                "val": 8
               },
-              "etr": "ETR-EXP",
+              "etr": "2024-12-14T13:25:54Z",
               "start_time": "2024-12-14T04:35:23Z"
             }
           ],
           "start_time": "2024-12-14T03:39:39Z"
         },
         "id": "14-0",
-        "source": "https://kubra.io/cluster-data/120/20d293c6-08fd-41b3-b96b-d2f522c74990/17af35e9-fb7b-4c4c-b38f-f6142ac089b4/public/cluster-1/02313012120021.json",
+        "source": "https://kubra.io/cluster-data/120/20d293c6-08fd-41b3-b96b-d2f522c74990/f0569ae3-66f1-4919-a418-1bce19d162e6/public/cluster-1/02313012120021.json",
         "title": "Area Outage"
       },
       "type": "Feature"
