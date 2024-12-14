@@ -3,8 +3,8 @@
     {
       "geometry": {
         "coordinates": [
-          -97.70165,
-          30.39936
+          -97.70119,
+          30.39899
         ],
         "type": "Point"
       },
@@ -16,31 +16,13 @@
           "crew_icon": false,
           "crew_status": null,
           "cust_a": {
-            "val": 108
+            "val": 44
           },
-          "etr": "2024-12-14T05:57:29Z",
+          "etr": "2024-12-14T07:35:23Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 2,
           "outages": [
-            {
-              "cause": {
-                "EN-US": "Under Investigation",
-                "ES-ES": "Investigaci\u00f3n en curso",
-                "orig": "No Selection"
-              },
-              "crew_icon": true,
-              "crew_status": {
-                "EN-US": "One or more crews have been assigned. ",
-                "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-                "orig": "Onsite"
-              },
-              "cust_a": {
-                "val": 99
-              },
-              "etr": "2024-12-14T05:57:29Z",
-              "start_time": "2024-12-14T03:41:50Z"
-            },
             {
               "cause": {
                 "EN-US": "Under Investigation",
@@ -58,12 +40,30 @@
               },
               "etr": "2024-12-14T05:57:07Z",
               "start_time": "2024-12-14T03:39:39Z"
+            },
+            {
+              "cause": {
+                "EN-US": "Under Investigation",
+                "ES-ES": "Investigaci\u00f3n en curso",
+                "orig": "No Selection"
+              },
+              "crew_icon": true,
+              "crew_status": {
+                "EN-US": "One or more crews have been assigned. ",
+                "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+                "orig": "Onsite"
+              },
+              "cust_a": {
+                "val": 35
+              },
+              "etr": "2024-12-14T07:35:23Z",
+              "start_time": "2024-12-14T04:35:23Z"
             }
           ],
           "start_time": "2024-12-14T03:39:39Z"
         },
         "id": "14-0",
-        "source": "https://kubra.io/cluster-data/120/20d293c6-08fd-41b3-b96b-d2f522c74990/e104709c-db3a-4e5c-b671-e371df8e90f7/public/cluster-1/02313012120021.json",
+        "source": "https://kubra.io/cluster-data/120/20d293c6-08fd-41b3-b96b-d2f522c74990/61c6f08e-7235-48cc-a1d0-b42345a1df1d/public/cluster-1/02313012120021.json",
         "title": "Area Outage"
       },
       "type": "Feature"
