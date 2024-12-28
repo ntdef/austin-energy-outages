@@ -5,20 +5,40 @@
         "coordinates": [
           [
             [
-              -97.69511,
-              30.26321
+              -97.91921,
+              30.34692
             ],
             [
-              -97.69656,
-              30.26584
+              -97.91953,
+              30.34714
             ],
             [
-              -97.69616,
-              30.26662
+              -97.91946,
+              30.3475
             ],
             [
-              -97.69511,
-              30.26321
+              -97.91864,
+              30.34824
+            ],
+            [
+              -97.91733,
+              30.34907
+            ],
+            [
+              -97.91678,
+              30.34854
+            ],
+            [
+              -97.91702,
+              30.34759
+            ],
+            [
+              -97.91884,
+              30.347
+            ],
+            [
+              -97.91921,
+              30.34692
             ]
           ]
         ],
@@ -27,9 +47,9 @@
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "Maintenance scheduled today in your area may require an interruption in electric service. Safety of our crews and customers is our top priority.",
-            "ES-ES": "Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. La seguridad de nuestros empleados y clientes es nuestra mayor prioridad.",
-            "orig": "Planned"
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
           },
           "cluster": false,
           "comments": null,
@@ -37,19 +57,57 @@
           "crew_status": {
             "EN-US": "One or more crews have been assigned. ",
             "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "orig": "Onsite"
+            "orig": "En Route"
           },
           "cust_a": {
-            "val": 8
+            "val": 18
           },
-          "etr": "2024-12-28T16:02:04Z",
+          "etr": "2024-12-28T18:09:12Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2024-12-28T13:46:18Z"
+          "start_time": "2024-12-28T14:34Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/18e33de4-8d38-455d-9fb9-764d39ca258a/public/cluster-1/0231301.json",
+        "id": "10-0",
+        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/530943cd-5a2b-458e-a868-d5cea4bf63b3/public/cluster-1/0231301203.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.88107,
+          30.34196
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 2
+          },
+          "etr": "2024-12-28T16:47:11Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2024-12-28T14:25Z"
+        },
+        "id": "10-1",
+        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/530943cd-5a2b-458e-a868-d5cea4bf63b3/public/cluster-1/0231301203.json",
         "title": "Area Outage"
       },
       "type": "Feature"
