@@ -33,7 +33,7 @@
           "start_time": "2024-12-29T14:21:12Z"
         },
         "id": "9-0",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/df31792b-5e12-4c5e-adb8-5f2e91c7a057/public/cluster-1/023130120.json",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/8ca00e6f-3ab3-45a8-b6bf-faed8d25606c/public/cluster-1/023130120.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -83,23 +83,23 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": true,
+          "crew_icon": false,
           "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "orig": "En Route"
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "orig": "N/A"
           },
           "cust_a": {
             "val": 321
           },
-          "etr": "2024-12-29T16:18:20Z",
+          "etr": "2024-12-29T17:32:19Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
           "start_time": "2024-12-29T14:01:13Z"
         },
         "id": "9-1",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/df31792b-5e12-4c5e-adb8-5f2e91c7a057/public/cluster-1/023130120.json",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/8ca00e6f-3ab3-45a8-b6bf-faed8d25606c/public/cluster-1/023130120.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -137,7 +137,7 @@
           "start_time": "2024-12-29T13:51Z"
         },
         "id": "9-2",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/df31792b-5e12-4c5e-adb8-5f2e91c7a057/public/cluster-1/023130120.json",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/8ca00e6f-3ab3-45a8-b6bf-faed8d25606c/public/cluster-1/023130120.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -159,11 +159,11 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
           },
           "cust_a": {
             "val": 20
@@ -175,7 +175,77 @@
           "start_time": "2024-12-29T14:17:26Z"
         },
         "id": "11-0",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/df31792b-5e12-4c5e-adb8-5f2e91c7a057/public/cluster-1/02313012120.json",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/8ca00e6f-3ab3-45a8-b6bf-faed8d25606c/public/cluster-1/02313012120.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -97.71932,
+              30.28978
+            ],
+            [
+              -97.7198,
+              30.29001
+            ],
+            [
+              -97.71899,
+              30.2918
+            ],
+            [
+              -97.71738,
+              30.29362
+            ],
+            [
+              -97.71699,
+              30.29343
+            ],
+            [
+              -97.71719,
+              30.29307
+            ],
+            [
+              -97.71855,
+              30.29096
+            ],
+            [
+              -97.71932,
+              30.28978
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 64
+          },
+          "etr": "2024-12-29T17:00:19Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2024-12-29T14:45:17Z"
+        },
+        "id": "12-0",
+        "source": "https://kubra.io/cluster-data/022/20d293c6-08fd-41b3-b96b-d2f522c74990/8ca00e6f-3ab3-45a8-b6bf-faed8d25606c/public/cluster-1/023130121220.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -240,8 +310,8 @@
           "n_out": 1,
           "start_time": "2024-12-29T13:54:37Z"
         },
-        "id": "12-0",
-        "source": "https://kubra.io/cluster-data/022/20d293c6-08fd-41b3-b96b-d2f522c74990/df31792b-5e12-4c5e-adb8-5f2e91c7a057/public/cluster-1/023130121220.json",
+        "id": "12-1",
+        "source": "https://kubra.io/cluster-data/022/20d293c6-08fd-41b3-b96b-d2f522c74990/8ca00e6f-3ab3-45a8-b6bf-faed8d25606c/public/cluster-1/023130121220.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -324,14 +394,14 @@
           "cust_a": {
             "val": 156
           },
-          "etr": "2024-12-29T16:35:12Z",
+          "etr": "2024-12-29T17:28:25Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
           "start_time": "2024-12-29T14:17:35Z"
         },
-        "id": "12-1",
-        "source": "https://kubra.io/cluster-data/022/20d293c6-08fd-41b3-b96b-d2f522c74990/df31792b-5e12-4c5e-adb8-5f2e91c7a057/public/cluster-1/023130121220.json",
+        "id": "12-2",
+        "source": "https://kubra.io/cluster-data/022/20d293c6-08fd-41b3-b96b-d2f522c74990/8ca00e6f-3ab3-45a8-b6bf-faed8d25606c/public/cluster-1/023130121220.json",
         "title": "Area Outage"
       },
       "type": "Feature"
