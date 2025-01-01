@@ -3,67 +3,69 @@
     {
       "geometry": {
         "coordinates": [
-          -97.7232,
-          30.31358
+          [
+            [
+              -97.72336,
+              30.31281
+            ],
+            [
+              -97.72375,
+              30.31303
+            ],
+            [
+              -97.72348,
+              30.31345
+            ],
+            [
+              -97.7232,
+              30.31386
+            ],
+            [
+              -97.72309,
+              30.31398
+            ],
+            [
+              -97.72267,
+              30.31383
+            ],
+            [
+              -97.72288,
+              30.31291
+            ],
+            [
+              -97.72336,
+              30.31281
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
-          "cause": null,
-          "cluster": true,
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
+          },
+          "cluster": false,
           "comments": null,
-          "crew_icon": false,
-          "crew_status": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
+          },
           "cust_a": {
             "val": 15
           },
-          "etr": "2025-01-01T19:24:23Z",
+          "etr": "2025-01-01T20:34:42Z",
           "etr_confidence": null,
           "inc_id": null,
-          "n_out": 2,
-          "outages": [
-            {
-              "cause": {
-                "EN-US": "Under Investigation",
-                "ES-ES": "Investigaci\u00f3n en curso",
-                "orig": "No Selection"
-              },
-              "crew_icon": true,
-              "crew_status": {
-                "EN-US": "One or more crews have been assigned. ",
-                "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-                "orig": "En Route"
-              },
-              "cust_a": {
-                "val": 13
-              },
-              "etr": "2025-01-01T19:24:23Z",
-              "start_time": "2025-01-01T16:44:26Z"
-            },
-            {
-              "cause": {
-                "EN-US": "Under Investigation",
-                "ES-ES": "Investigaci\u00f3n en curso",
-                "orig": "No Selection"
-              },
-              "crew_icon": false,
-              "crew_status": {
-                "EN-US": "Pending",
-                "ES-ES": "Pendiente",
-                "orig": "N/A"
-              },
-              "cust_a": {
-                "val": 2
-              },
-              "etr": "2025-01-01T19:13:52Z",
-              "start_time": "2025-01-01T16:51:50Z"
-            }
-          ],
+          "n_out": 1,
           "start_time": "2025-01-01T16:44:26Z"
         },
-        "id": "14-0",
-        "source": "https://kubra.io/cluster-data/222/20d293c6-08fd-41b3-b96b-d2f522c74990/6fa1f15b-a697-43cd-a1d3-67d8fb9a25e9/public/cluster-1/02313012120222.json",
+        "id": "7-0",
+        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/3912bed6-d9e1-4404-919c-7cd0fc3c1573/public/cluster-1/0231301.json",
         "title": "Area Outage"
       },
       "type": "Feature"
