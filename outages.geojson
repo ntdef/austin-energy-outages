@@ -3,67 +3,37 @@
     {
       "geometry": {
         "coordinates": [
-          -97.81541,
-          30.27648
+          -97.75239,
+          30.39387
         ],
         "type": "Point"
       },
       "properties": {
         "desc": {
-          "cause": null,
-          "cluster": true,
-          "comments": null,
-          "crew_icon": false,
-          "crew_status": null,
-          "cust_a": {
-            "val": 2
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
           },
-          "etr": "ETR-EXP",
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "En Route"
+          },
+          "cust_a": {
+            "val": 1
+          },
+          "etr": "2025-01-05T20:09:18Z",
           "etr_confidence": null,
           "inc_id": null,
-          "n_out": 2,
-          "outages": [
-            {
-              "cause": {
-                "EN-US": "Maintenance scheduled today in your area may require an interruption in electric service. Safety of our crews and customers is our top priority.",
-                "ES-ES": "Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. La seguridad de nuestros empleados y clientes es nuestra mayor prioridad.",
-                "orig": "Planned"
-              },
-              "crew_icon": false,
-              "crew_status": {
-                "EN-US": "Pending",
-                "ES-ES": "Pendiente",
-                "orig": "N/A"
-              },
-              "cust_a": {
-                "val": 1
-              },
-              "etr": "ETR-EXP",
-              "start_time": "2025-01-05T13:38:23Z"
-            },
-            {
-              "cause": {
-                "EN-US": "Maintenance scheduled today in your area may require an interruption in electric service. Safety of our crews and customers is our top priority.",
-                "ES-ES": "Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. La seguridad de nuestros empleados y clientes es nuestra mayor prioridad.",
-                "orig": "Planned"
-              },
-              "crew_icon": true,
-              "crew_status": {
-                "EN-US": "One or more crews have been assigned. ",
-                "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-                "orig": "Onsite"
-              },
-              "cust_a": {
-                "val": 1
-              },
-              "etr": "ETR-EXP",
-              "start_time": "2025-01-05T13:30:55Z"
-            }
-          ],
-          "start_time": "2025-01-05T13:30:55Z"
+          "n_out": 1,
+          "start_time": "2025-01-05T17:20Z"
         },
-        "id": "14-0",
-        "source": "https://kubra.io/cluster-data/201/20d293c6-08fd-41b3-b96b-d2f522c74990/480759b7-eaed-4e48-83ac-298ae31fddba/public/cluster-1/02313012033102.json",
+        "id": "7-0",
+        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/c7a2feb5-5dd4-4fd5-bc1e-87de88ac3845/public/cluster-1/0231301.json",
         "title": "Area Outage"
       },
       "type": "Feature"
