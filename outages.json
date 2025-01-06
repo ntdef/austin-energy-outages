@@ -2,12 +2,12 @@
   {
     "lat": 30.2814,
     "lon": -97.80458,
-    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/12fd9a1d-368e-48c8-bff1-33518dadd85b/public/cluster-1/023130120.json",
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/3cd7fa81-3c09-45e0-89bf-323a2bb8f5e6/public/cluster-1/023130120.json",
     "cause": "Under Investigation",
     "cause_orig": "No Selection",
     "cluster": false,
-    "crew_status": "Pending",
-    "crew_status_orig": "N/A",
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "En Route",
     "start_time": "2025-01-06T14:23:05Z",
     "etr": "2025-01-06T16:43:42Z",
     "n_out": 1,
@@ -15,33 +15,50 @@
     "_id": "30.2814-97.80458"
   },
   {
-    "lat": 30.40193,
-    "lon": -97.70178,
-    "source": "https://kubra.io/cluster-data/120/20d293c6-08fd-41b3-b96b-d2f522c74990/12fd9a1d-368e-48c8-bff1-33518dadd85b/public/cluster-1/02313012120021.json",
-    "cause": null,
-    "cause_orig": null,
-    "cluster": true,
-    "crew_status": null,
-    "crew_status_orig": null,
-    "start_time": "2025-01-06T13:56:40Z",
-    "etr": "2025-01-06T16:36:34Z",
-    "n_out": 2,
-    "type_id": "14-0",
-    "_id": "30.40193-97.70178"
-  },
-  {
-    "lat": 30.35893,
-    "lon": -97.7036,
-    "source": "https://kubra.io/cluster-data/202/20d293c6-08fd-41b3-b96b-d2f522c74990/12fd9a1d-368e-48c8-bff1-33518dadd85b/public/cluster-1/023130121202.json",
-    "cause": "Under Investigation",
-    "cause_orig": "No Selection",
+    "lat": null,
+    "lon": [
+      [
+        -97.82994,
+        30.16449
+      ],
+      [
+        -97.8297,
+        30.16517
+      ],
+      [
+        -97.8295,
+        30.16541
+      ],
+      [
+        -97.82994,
+        30.16449
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/3cd7fa81-3c09-45e0-89bf-323a2bb8f5e6/public/cluster-1/023130120.json",
+    "cause": "Maintenance scheduled today in your area may require an interruption in electric service. Safety of our crews and customers is our top priority.",
+    "cause_orig": "Planned",
     "cluster": false,
     "crew_status": "One or more crews have been assigned. ",
-    "crew_status_orig": "En Route",
-    "start_time": "2025-01-06T13:19Z",
-    "etr": "2025-01-06T15:36:09Z",
+    "crew_status_orig": "Onsite",
+    "start_time": "2025-01-06T15:09:05Z",
+    "etr": "2025-01-06T17:33:43Z",
     "n_out": 1,
-    "type_id": "12-0",
-    "_id": "30.35893-97.7036"
+    "type_id": "9-1",
+    "_id": "null[[-97.82994,30.16449],[-97.8297,30.16517],[-97.8295,30.16541],[-97.82994,30.16449]]"
+  },
+  {
+    "lat": 30.40193,
+    "lon": -97.70178,
+    "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/3cd7fa81-3c09-45e0-89bf-323a2bb8f5e6/public/cluster-1/023130121.json",
+    "cause": null,
+    "cause_orig": null,
+    "cluster": false,
+    "crew_status": "Pending",
+    "crew_status_orig": "N/A",
+    "start_time": "2025-01-06T14:57:17Z",
+    "etr": "2025-01-06T17:12:19Z",
+    "n_out": 1,
+    "type_id": "9-0",
+    "_id": "30.40193-97.70178"
   }
 ]
