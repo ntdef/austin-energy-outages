@@ -3,6 +3,68 @@
     {
       "geometry": {
         "coordinates": [
+          [
+            [
+              -97.76532,
+              30.29983
+            ],
+            [
+              -97.76578,
+              30.30007
+            ],
+            [
+              -97.7643,
+              30.30054
+            ],
+            [
+              -97.7645,
+              30.30017
+            ],
+            [
+              -97.76465,
+              30.29999
+            ],
+            [
+              -97.76532,
+              30.29983
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Maintenance scheduled today in your area may require an interruption in electric service. Safety of our crews and customers is our top priority.",
+            "ES-ES": "Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. La seguridad de nuestros empleados y clientes es nuestra mayor prioridad.",
+            "orig": "Planned"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
+          },
+          "cust_a": {
+            "val": 7
+          },
+          "etr": "2025-02-04T20:12:18Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-02-04T12:51:20Z"
+        },
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/f7018d1c-2110-4737-bf0a-683de659ca65/public/cluster-1/023130120.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -97.73615,
           30.2198
         ],
@@ -21,7 +83,7 @@
           "crew_status": {
             "EN-US": "One or more crews have been assigned. ",
             "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "orig": "En Route"
+            "orig": "Onsite"
           },
           "cust_a": {
             "val": 1
@@ -32,8 +94,8 @@
           "n_out": 1,
           "start_time": "2025-02-04T17:12:01Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/bf854476-f14d-441a-b51d-6f1a6b55f2cb/public/cluster-1/0231301.json",
+        "id": "9-1",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/f7018d1c-2110-4737-bf0a-683de659ca65/public/cluster-1/023130120.json",
         "title": "Area Outage"
       },
       "type": "Feature"
