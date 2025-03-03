@@ -1,17 +1,49 @@
 [
   {
-    "lat": 30.39067,
-    "lon": -97.72996,
-    "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/5341aeab-72d4-4d5b-bd64-89e7d5536b72/public/cluster-1/0231301.json",
+    "lat": null,
+    "lon": [
+      [
+        -97.78247,
+        30.30553
+      ],
+      [
+        -97.78255,
+        30.30559
+      ],
+      [
+        -97.782,
+        30.3061
+      ],
+      [
+        -97.78247,
+        30.30553
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/353cd81a-ad76-493d-aa06-9267b01ad094/public/cluster-1/0231301203.json",
     "cause": "Maintenance scheduled today in your area may require an interruption in electric service. Safety of our crews and customers is our top priority.",
     "cause_orig": "Planned",
     "cluster": false,
-    "crew_status": "Pending",
-    "crew_status_orig": "N/A",
-    "start_time": "2025-03-03T14:39:36Z",
-    "etr": "2025-03-06T22:00:00Z",
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "Onsite",
+    "start_time": "2025-03-03T16:22:42Z",
+    "etr": "2025-03-03T18:51:34Z",
     "n_out": 1,
-    "type_id": "7-0",
-    "_id": "30.39067-97.72996"
+    "type_id": "10-0",
+    "_id": "null[[-97.78247,30.30553],[-97.78255,30.30559],[-97.782,30.3061],[-97.78247,30.30553]]"
+  },
+  {
+    "lat": 30.25318,
+    "lon": -97.75998,
+    "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/353cd81a-ad76-493d-aa06-9267b01ad094/public/cluster-1/0231301203.json",
+    "cause": "Under Investigation",
+    "cause_orig": "No Selection",
+    "cluster": false,
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "En Route",
+    "start_time": "2025-03-03T15:48:11Z",
+    "etr": "2025-03-03T18:04:22Z",
+    "n_out": 1,
+    "type_id": "10-1",
+    "_id": "30.25318-97.75998"
   }
 ]
