@@ -3,29 +3,85 @@
     {
       "geometry": {
         "coordinates": [
-          -97.76145,
-          30.32855
+          [
+            [
+              -97.75902,
+              30.32734
+            ],
+            [
+              -97.75936,
+              30.32741
+            ],
+            [
+              -97.76037,
+              30.32781
+            ],
+            [
+              -97.76079,
+              30.32801
+            ],
+            [
+              -97.76208,
+              30.32863
+            ],
+            [
+              -97.76261,
+              30.32891
+            ],
+            [
+              -97.76286,
+              30.32905
+            ],
+            [
+              -97.76311,
+              30.32925
+            ],
+            [
+              -97.7626,
+              30.33123
+            ],
+            [
+              -97.75995,
+              30.33069
+            ],
+            [
+              -97.75885,
+              30.32878
+            ],
+            [
+              -97.75902,
+              30.32734
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
-          "cause": null,
-          "cluster": true,
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
+          },
+          "cluster": false,
           "comments": null,
-          "crew_icon": false,
-          "crew_status": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
+          },
           "cust_a": {
-            "val": 58
+            "val": 57
           },
           "etr": "2025-03-09T02:07:27Z",
           "etr_confidence": null,
           "inc_id": null,
-          "n_out": 2,
+          "n_out": 1,
           "start_time": "2025-03-08T22:12:14Z"
         },
-        "id": "14-0",
-        "source": "https://kubra.io/cluster-data/033/20d293c6-08fd-41b3-b96b-d2f522c74990/63ce55c8-17a2-444c-b8f6-8e4eea05c95c/public/cluster-1/02313012031330.json",
+        "id": "7-0",
+        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/42360eea-ad9e-4e09-9d27-d3d2b0b3ef24/public/cluster-1/0231301.json",
         "title": "Area Outage"
       },
       "type": "Feature"
