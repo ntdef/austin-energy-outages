@@ -5,6 +5,80 @@
         "coordinates": [
           [
             [
+              -97.70925,
+              30.25135
+            ],
+            [
+              -97.71136,
+              30.25179
+            ],
+            [
+              -97.71248,
+              30.25223
+            ],
+            [
+              -97.71156,
+              30.25282
+            ],
+            [
+              -97.70825,
+              30.25216
+            ],
+            [
+              -97.70738,
+              30.25147
+            ],
+            [
+              -97.70804,
+              30.25142
+            ],
+            [
+              -97.70874,
+              30.25137
+            ],
+            [
+              -97.70925,
+              30.25135
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "An obstruction to the electrical grid has occurred (e.g., a traffic collision). Restoration time depends on the extent of the damage.",
+            "ES-ES": "Se ha producido una obstrucci\u00f3n a la red el\u00e9ctrica (por ejemplo, un colisi\u00f3n de tr\u00e1fico). El tiempo de restauraci\u00f3n depende de la extensi\u00f3n del da\u00f1o.",
+            "orig": "Interference"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
+          },
+          "cust_a": {
+            "val": 19
+          },
+          "etr": "2025-03-13T14:05:12Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-03-13T11:05:12Z"
+        },
+        "id": "13-0",
+        "source": "https://kubra.io/cluster-data/202/20d293c6-08fd-41b3-b96b-d2f522c74990/33b22a0e-68ff-411a-833d-e5244bd9ced6/public/cluster-1/0231301212202.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
               -97.71471,
               30.25175
             ],
@@ -49,7 +123,7 @@
           "crew_status": {
             "EN-US": "One or more crews have been assigned. ",
             "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "orig": "En Route"
+            "orig": "Onsite"
           },
           "cust_a": {
             "val": 8
@@ -60,8 +134,8 @@
           "n_out": 1,
           "start_time": "2025-03-13T10:27Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/b6d7aef4-08fc-45c2-afb5-a1b0eca21a50/public/cluster-1/0231301.json",
+        "id": "13-1",
+        "source": "https://kubra.io/cluster-data/202/20d293c6-08fd-41b3-b96b-d2f522c74990/33b22a0e-68ff-411a-833d-e5244bd9ced6/public/cluster-1/0231301212202.json",
         "title": "Area Outage"
       },
       "type": "Feature"
