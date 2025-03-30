@@ -3,22 +3,64 @@
     {
       "geometry": {
         "coordinates": [
+          -97.74771,
+          30.24956
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "A tree, branch or vegetation contacted power lines",
+            "ES-ES": "Un \u00e1rbol o rama entro en contacto con los cables",
+            "orig": "Vegetation"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
+          },
+          "cust_a": {
+            "val": 1
+          },
+          "etr": "2025-03-30T09:58:25Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-03-30T06:28:33Z"
+        },
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/aa8511a0-a671-41de-a78a-0a238de3f3ec/public/cluster-1/023130120.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           [
             [
-              -97.74729,
-              30.24943
+              -97.70171,
+              30.30857
             ],
             [
-              -97.74796,
-              30.24952
+              -97.70223,
+              30.30878
             ],
             [
-              -97.74808,
-              30.25005
+              -97.70201,
+              30.30915
             ],
             [
-              -97.74729,
-              30.24943
+              -97.70151,
+              30.30891
+            ],
+            [
+              -97.70171,
+              30.30857
             ]
           ]
         ],
@@ -33,23 +75,23 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": true,
+          "crew_icon": false,
           "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "orig": "Onsite"
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "orig": "N/A"
           },
           "cust_a": {
-            "val": 7
+            "val": 8
           },
-          "etr": "2025-03-30T08:48:39Z",
+          "etr": "2025-03-30T10:51:56Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2025-03-30T06:28:33Z"
+          "start_time": "2025-03-30T08:12:04Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/c4674806-a695-45ff-9add-d0d1af5322b8/public/cluster-1/0231301.json",
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/aa8511a0-a671-41de-a78a-0a238de3f3ec/public/cluster-1/023130121.json",
         "title": "Area Outage"
       },
       "type": "Feature"
