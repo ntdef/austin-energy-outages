@@ -3,29 +3,69 @@
     {
       "geometry": {
         "coordinates": [
-          -97.80959,
-          30.26806
+          [
+            [
+              -97.80816,
+              30.26694
+            ],
+            [
+              -97.80892,
+              30.26705
+            ],
+            [
+              -97.80915,
+              30.26713
+            ],
+            [
+              -97.80945,
+              30.26723
+            ],
+            [
+              -97.81033,
+              30.26761
+            ],
+            [
+              -97.81066,
+              30.26776
+            ],
+            [
+              -97.80757,
+              30.27017
+            ],
+            [
+              -97.80816,
+              30.26694
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
-          "cause": null,
-          "cluster": true,
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
+          },
+          "cluster": false,
           "comments": null,
-          "crew_icon": false,
-          "crew_status": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
+          },
           "cust_a": {
-            "val": 36
+            "val": 35
           },
           "etr": "2025-04-10T11:09:51Z",
           "etr_confidence": null,
           "inc_id": null,
-          "n_out": 2,
+          "n_out": 1,
           "start_time": "2025-04-10T08:05:20Z"
         },
-        "id": "14-0",
-        "source": "https://kubra.io/cluster-data/201/20d293c6-08fd-41b3-b96b-d2f522c74990/cc90fe5f-58c3-4f78-b9d0-ad6a3538d00b/public/cluster-1/02313012033102.json",
+        "id": "7-0",
+        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/3b03965b-6068-4cf9-bcec-e99cf406aafc/public/cluster-1/0231301.json",
         "title": "Area Outage"
       },
       "type": "Feature"
