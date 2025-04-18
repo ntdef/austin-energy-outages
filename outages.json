@@ -1,23 +1,40 @@
 [
   {
-    "lat": 30.33975,
-    "lon": -97.98498,
-    "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/1fd83ab6-63ed-443b-b1f9-9419ee06dcc3/public/cluster-1/02313012.json",
+    "lat": null,
+    "lon": [
+      [
+        -97.98537,
+        30.33953
+      ],
+      [
+        -97.98498,
+        30.33975
+      ],
+      [
+        -97.98496,
+        30.33955
+      ],
+      [
+        -97.98537,
+        30.33953
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/a756aa77-d36b-4255-b8ac-a37e2d410eab/public/cluster-1/023130120.json",
     "cause": "Electrical equipment failure",
     "cause_orig": "Equipment",
     "cluster": false,
-    "crew_status": "Pending",
-    "crew_status_orig": "N/A",
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "Onsite",
     "start_time": "2025-04-18T11:01:13Z",
-    "etr": "ETR-EXP",
+    "etr": "2025-04-18T18:15:52Z",
     "n_out": 1,
-    "type_id": "8-0",
-    "_id": "30.33975-97.98498"
+    "type_id": "9-0",
+    "_id": "null[[-97.98537,30.33953],[-97.98498,30.33975],[-97.98496,30.33955],[-97.98537,30.33953]]"
   },
   {
     "lat": 30.38736,
     "lon": -97.76178,
-    "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/1fd83ab6-63ed-443b-b1f9-9419ee06dcc3/public/cluster-1/02313012.json",
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/a756aa77-d36b-4255-b8ac-a37e2d410eab/public/cluster-1/023130120.json",
     "cause": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
     "cause_orig": "Planned",
     "cluster": false,
@@ -26,22 +43,37 @@
     "start_time": "2025-04-18T14:43:02Z",
     "etr": "2025-04-18T21:00:00Z",
     "n_out": 1,
-    "type_id": "8-1",
+    "type_id": "9-1",
     "_id": "30.38736-97.76178"
   },
   {
-    "lat": 30.23066,
-    "lon": -97.79338,
-    "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/1fd83ab6-63ed-443b-b1f9-9419ee06dcc3/public/cluster-1/02313012.json",
+    "lat": 30.23567,
+    "lon": -97.78418,
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/a756aa77-d36b-4255-b8ac-a37e2d410eab/public/cluster-1/023130120.json",
     "cause": "Under Investigation",
     "cause_orig": "No Selection",
     "cluster": false,
-    "crew_status": "One or more crews have been assigned. ",
-    "crew_status_orig": "Onsite",
-    "start_time": "2025-04-18T14:46:04Z",
-    "etr": "2025-04-18T17:13:54Z",
+    "crew_status": "Pending",
+    "crew_status_orig": "N/A",
+    "start_time": "2025-04-18T16:28:03Z",
+    "etr": "2025-04-18T18:43:07Z",
     "n_out": 1,
-    "type_id": "8-2",
-    "_id": "30.23066-97.79338"
+    "type_id": "9-2",
+    "_id": "30.23567-97.78418"
+  },
+  {
+    "lat": 30.17949,
+    "lon": -97.82905,
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/a756aa77-d36b-4255-b8ac-a37e2d410eab/public/cluster-1/023130120.json",
+    "cause": "An obstruction to the electrical grid has occurred (e.g., a traffic collision). Restoration time depends on the extent of the damage.",
+    "cause_orig": "Interference",
+    "cluster": false,
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "En Route",
+    "start_time": "2025-04-18T16:19:51Z",
+    "etr": "2025-04-18T18:45:52Z",
+    "n_out": 1,
+    "type_id": "9-3",
+    "_id": "30.17949-97.82905"
   }
 ]
