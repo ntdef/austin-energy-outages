@@ -3,8 +3,8 @@
     {
       "geometry": {
         "coordinates": [
-          -97.72202,
-          30.22943
+          -97.7663,
+          30.25054
         ],
         "type": "Point"
       },
@@ -24,16 +24,78 @@
             "orig": "N/A"
           },
           "cust_a": {
-            "val": 4
+            "val": 3
           },
-          "etr": "2025-04-24T15:39:17Z",
+          "etr": "2025-04-24T16:00:41Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2025-04-24T04:54:12Z"
+          "start_time": "2025-04-24T13:34:36Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/1080718a-9926-424e-a349-1c37e748f035/public/cluster-1/0231301.json",
+        "id": "10-0",
+        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/5fd65544-df64-43e2-82db-79afe82037b9/public/cluster-1/0231301203.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -97.67112,
+              30.31279
+            ],
+            [
+              -97.67154,
+              30.31303
+            ],
+            [
+              -97.6714,
+              30.3132
+            ],
+            [
+              -97.67128,
+              30.31335
+            ],
+            [
+              -97.6709,
+              30.3133
+            ],
+            [
+              -97.67112,
+              30.31279
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+            "ES-ES": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "orig": "Planned"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
+          },
+          "cust_a": {
+            "val": 8
+          },
+          "etr": "2025-04-24T16:15:22Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-04-24T11:40:52Z"
+        },
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/5fd65544-df64-43e2-82db-79afe82037b9/public/cluster-1/023130121.json",
         "title": "Area Outage"
       },
       "type": "Feature"
