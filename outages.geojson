@@ -53,7 +53,77 @@
           "start_time": "2025-05-04T06:08:54Z"
         },
         "id": "10-0",
-        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/c904f268-3473-4206-b1c0-47483c5a5654/public/cluster-1/0231301203.json",
+        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/5c1aff73-8cba-4d14-8a0f-0c01363ba33d/public/cluster-1/0231301203.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -97.76301,
+              30.28398
+            ],
+            [
+              -97.76313,
+              30.28403
+            ],
+            [
+              -97.76357,
+              30.28428
+            ],
+            [
+              -97.76306,
+              30.285
+            ],
+            [
+              -97.76265,
+              30.28493
+            ],
+            [
+              -97.76265,
+              30.28475
+            ],
+            [
+              -97.76269,
+              30.28463
+            ],
+            [
+              -97.76301,
+              30.28398
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 19
+          },
+          "etr": "2025-05-04T16:16:44Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-05-04T13:06:32Z"
+        },
+        "id": "10-1",
+        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/5c1aff73-8cba-4d14-8a0f-0c01363ba33d/public/cluster-1/0231301203.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -95,11 +165,11 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
           },
           "cust_a": {
             "val": 6
@@ -110,8 +180,8 @@
           "n_out": 1,
           "start_time": "2025-05-04T12:27:15Z"
         },
-        "id": "10-1",
-        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/c904f268-3473-4206-b1c0-47483c5a5654/public/cluster-1/0231301203.json",
+        "id": "10-2",
+        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/5c1aff73-8cba-4d14-8a0f-0c01363ba33d/public/cluster-1/0231301203.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -148,8 +218,62 @@
           "n_out": 1,
           "start_time": "2025-05-04T12:14:37Z"
         },
-        "id": "10-0",
-        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/c904f268-3473-4206-b1c0-47483c5a5654/public/cluster-1/0231301212.json",
+        "id": "11-0",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/5c1aff73-8cba-4d14-8a0f-0c01363ba33d/public/cluster-1/02313012120.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -97.72249,
+              30.34814
+            ],
+            [
+              -97.72279,
+              30.34851
+            ],
+            [
+              -97.72275,
+              30.34875
+            ],
+            [
+              -97.72249,
+              30.34814
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "En Route"
+          },
+          "cust_a": {
+            "val": 4
+          },
+          "etr": "2025-05-04T15:24:27Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-05-04T13:05:02Z"
+        },
+        "id": "11-1",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/5c1aff73-8cba-4d14-8a0f-0c01363ba33d/public/cluster-1/02313012120.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -182,8 +306,8 @@
           "n_out": 1,
           "start_time": "2025-05-04T02:14:49Z"
         },
-        "id": "10-1",
-        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/c904f268-3473-4206-b1c0-47483c5a5654/public/cluster-1/0231301212.json",
+        "id": "11-2",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/5c1aff73-8cba-4d14-8a0f-0c01363ba33d/public/cluster-1/02313012120.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -216,8 +340,8 @@
           "n_out": 1,
           "start_time": "2025-05-04T02:53:07Z"
         },
-        "id": "10-2",
-        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/c904f268-3473-4206-b1c0-47483c5a5654/public/cluster-1/0231301212.json",
+        "id": "11-0",
+        "source": "https://kubra.io/cluster-data/221/20d293c6-08fd-41b3-b96b-d2f522c74990/5c1aff73-8cba-4d14-8a0f-0c01363ba33d/public/cluster-1/02313012122.json",
         "title": "Area Outage"
       },
       "type": "Feature"
