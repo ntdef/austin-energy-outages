@@ -37,11 +37,11 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "orig": "Onsite"
           },
           "cust_a": {
             "val": 6
@@ -52,8 +52,8 @@
           "n_out": 1,
           "start_time": "2025-05-06T13:14:44Z"
         },
-        "id": "11-0",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/6195b685-aa06-46e9-ae24-ed48320f2c6e/public/cluster-1/02313012120.json",
+        "id": "12-0",
+        "source": "https://kubra.io/cluster-data/002/20d293c6-08fd-41b3-b96b-d2f522c74990/542bdd12-9a0e-4839-b240-aa1e832e56d5/public/cluster-1/023130121200.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -79,19 +79,93 @@
           "crew_status": {
             "EN-US": "One or more crews have been assigned. ",
             "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "orig": "En Route"
+            "orig": "Onsite"
           },
           "cust_a": {
             "val": 1
           },
-          "etr": "2025-05-06T15:41:53Z",
+          "etr": "2025-05-06T16:41:53Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
           "start_time": "2025-05-06T13:26:49Z"
         },
-        "id": "11-1",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/6195b685-aa06-46e9-ae24-ed48320f2c6e/public/cluster-1/02313012120.json",
+        "id": "12-0",
+        "source": "https://kubra.io/cluster-data/202/20d293c6-08fd-41b3-b96b-d2f522c74990/542bdd12-9a0e-4839-b240-aa1e832e56d5/public/cluster-1/023130121202.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -97.70206,
+              30.34986
+            ],
+            [
+              -97.70316,
+              30.35001
+            ],
+            [
+              -97.70448,
+              30.35031
+            ],
+            [
+              -97.70384,
+              30.35126
+            ],
+            [
+              -97.70374,
+              30.35137
+            ],
+            [
+              -97.70356,
+              30.35131
+            ],
+            [
+              -97.70253,
+              30.35082
+            ],
+            [
+              -97.70179,
+              30.35022
+            ],
+            [
+              -97.70206,
+              30.34986
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 68
+          },
+          "etr": "2025-05-06T17:35:01Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-05-06T13:54:40Z"
+        },
+        "id": "12-1",
+        "source": "https://kubra.io/cluster-data/202/20d293c6-08fd-41b3-b96b-d2f522c74990/542bdd12-9a0e-4839-b240-aa1e832e56d5/public/cluster-1/023130121202.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -139,9 +213,9 @@
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "Under Investigation",
-            "ES-ES": "Investigaci\u00f3n en curso",
-            "orig": "No Selection"
+            "EN-US": "A tree, branch or vegetation contacted power lines",
+            "ES-ES": "Un \u00e1rbol o rama entro en contacto con los cables",
+            "orig": "Vegetation"
           },
           "cluster": false,
           "comments": null,
@@ -152,7 +226,7 @@
             "orig": "Onsite"
           },
           "cust_a": {
-            "val": 109
+            "val": 106
           },
           "etr": "2025-05-06T17:27:25Z",
           "etr_confidence": null,
@@ -160,8 +234,46 @@
           "n_out": 1,
           "start_time": "2025-05-06T14:09:39Z"
         },
-        "id": "11-2",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/6195b685-aa06-46e9-ae24-ed48320f2c6e/public/cluster-1/02313012120.json",
+        "id": "12-2",
+        "source": "https://kubra.io/cluster-data/202/20d293c6-08fd-41b3-b96b-d2f522c74990/542bdd12-9a0e-4839-b240-aa1e832e56d5/public/cluster-1/023130121202.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.70163,
+          30.28344
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 1
+          },
+          "etr": "2025-05-06T17:21:48Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-05-06T15:05Z"
+        },
+        "id": "11-0",
+        "source": "https://kubra.io/cluster-data/221/20d293c6-08fd-41b3-b96b-d2f522c74990/542bdd12-9a0e-4839-b240-aa1e832e56d5/public/cluster-1/02313012122.json",
         "title": "Area Outage"
       },
       "type": "Feature"
