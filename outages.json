@@ -1,32 +1,53 @@
 [
   {
-    "lat": 30.38412,
-    "lon": -97.75344,
-    "source": "https://kubra.io/cluster-data/331/20d293c6-08fd-41b3-b96b-d2f522c74990/98405b63-b0ee-4e5e-b3da-e39ff8c5b668/public/cluster-1/02313012031133.json",
-    "cause": null,
-    "cause_orig": null,
-    "cluster": true,
-    "crew_status": null,
-    "crew_status_orig": null,
+    "lat": null,
+    "lon": [
+      [
+        -97.75301,
+        30.38394
+      ],
+      [
+        -97.75329,
+        30.38405
+      ],
+      [
+        -97.75347,
+        30.38446
+      ],
+      [
+        -97.7532,
+        30.38437
+      ],
+      [
+        -97.75301,
+        30.38394
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/fececba2-bb47-44c5-b654-9dd6cdba250c/public/cluster-1/02313012.json",
+    "cause": "Electrical equipment failure",
+    "cause_orig": "Equipment",
+    "cluster": false,
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "Onsite",
     "start_time": "2025-05-08T17:56Z",
-    "etr": "2025-05-08T23:56:23Z",
-    "n_out": 2,
-    "type_id": "14-0",
-    "_id": "30.38412-97.75344"
+    "etr": "2025-05-08T23:50:39Z",
+    "n_out": 1,
+    "type_id": "8-0",
+    "_id": "null[[-97.75301,30.38394],[-97.75329,30.38405],[-97.75347,30.38446],[-97.7532,30.38437],[-97.75301,30.38394]]"
   },
   {
     "lat": 30.24927,
     "lon": -97.77852,
-    "source": "https://kubra.io/cluster-data/330/20d293c6-08fd-41b3-b96b-d2f522c74990/98405b63-b0ee-4e5e-b3da-e39ff8c5b668/public/cluster-1/02313012033.json",
+    "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/fececba2-bb47-44c5-b654-9dd6cdba250c/public/cluster-1/02313012.json",
     "cause": "Under Investigation",
     "cause_orig": "No Selection",
     "cluster": false,
     "crew_status": "One or more crews have been assigned. ",
-    "crew_status_orig": "En Route",
+    "crew_status_orig": "Onsite",
     "start_time": "2025-05-08T20:59Z",
     "etr": "2025-05-08T23:14:41Z",
     "n_out": 1,
-    "type_id": "11-0",
+    "type_id": "8-1",
     "_id": "30.24927-97.77852"
   }
 ]
