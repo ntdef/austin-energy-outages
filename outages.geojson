@@ -3,30 +3,10 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            [
-              -97.92221,
-              30.31059
-            ],
-            [
-              -97.92235,
-              30.31073
-            ],
-            [
-              -97.9222,
-              30.31123
-            ],
-            [
-              -97.92186,
-              30.3108
-            ],
-            [
-              -97.92221,
-              30.31059
-            ]
-          ]
+          -97.74591,
+          30.29729
         ],
-        "type": "Polygon"
+        "type": "Point"
       },
       "properties": {
         "desc": {
@@ -38,24 +18,64 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": true,
+          "crew_icon": false,
           "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
-            "orig": "Onsite"
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
           },
           "cust_a": {
-            "val": 6
+            "val": 8
           },
-          "etr": "2025-05-08T20:56:33Z",
+          "etr": "2025-05-08T21:34:16Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2025-05-08T18:21:32Z"
+          "start_time": "2025-05-08T19:19:14Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/dbd1a949-8945-47fc-bc3e-1300c4b22687/public/cluster-1/0231301.json",
+        "id": "8-0",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/4321f39f-021f-4421-899a-5a687d791315/public/cluster-1/02313012.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.6412,
+          30.39872
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "es-US": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 2
+          },
+          "etr": "2025-05-08T21:38:23Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-05-08T19:23:20Z"
+        },
+        "id": "8-1",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/4321f39f-021f-4421-899a-5a687d791315/public/cluster-1/02313012.json",
         "title": "Area Outage"
       },
       "type": "Feature"
