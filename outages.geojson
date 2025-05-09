@@ -3,26 +3,10 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            [
-              -97.76857,
-              30.25115
-            ],
-            [
-              -97.76855,
-              30.2516
-            ],
-            [
-              -97.76856,
-              30.2513
-            ],
-            [
-              -97.76857,
-              30.25115
-            ]
-          ]
+          -97.76705,
+          30.25023
         ],
-        "type": "Polygon"
+        "type": "Point"
       },
       "properties": {
         "desc": {
@@ -42,16 +26,51 @@
             "orig": "N/A"
           },
           "cust_a": {
-            "val": 3
+            "val": 2
           },
-          "etr": "2025-05-09T19:40:46Z",
+          "etr": "2025-05-09T20:00:38Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2025-05-09T17:20:46Z"
+          "start_time": "2025-05-09T17:32Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/3f085878-4694-4746-81dd-502a29e26ac5/public/cluster-1/0231301.json",
+        "id": "8-0",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/2f93597a-096b-4523-978e-86845d874eba/public/cluster-1/02313012.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.63309,
+          30.41083
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {},
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
+            "orig": "En Route"
+          },
+          "cust_a": {
+            "val": 1
+          },
+          "etr": "2025-05-09T19:49:07Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-05-09T17:34:04Z"
+        },
+        "id": "8-1",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/2f93597a-096b-4523-978e-86845d874eba/public/cluster-1/02313012.json",
         "title": "Area Outage"
       },
       "type": "Feature"
