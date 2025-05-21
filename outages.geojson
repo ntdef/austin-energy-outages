@@ -3,6 +3,66 @@
     {
       "geometry": {
         "coordinates": [
+          [
+            [
+              -97.72213,
+              30.31789
+            ],
+            [
+              -97.72221,
+              30.31793
+            ],
+            [
+              -97.72209,
+              30.31863
+            ],
+            [
+              -97.72182,
+              30.31851
+            ],
+            [
+              -97.72213,
+              30.31789
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Electrical equipment failure",
+            "ES-ES": "Falla del equipo el\u00e9ctrico",
+            "es-US": "Falla del equipo el\u00e9ctrico",
+            "orig": "Equipment"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 15
+          },
+          "etr": "2025-05-21T08:32:18Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-05-21T05:07:58Z"
+        },
+        "id": "10-0",
+        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/ae6cd044-c99a-4190-86dc-cb31d071efc4/public/cluster-1/0231301212.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           -97.68584,
           30.3546
         ],
@@ -34,48 +94,8 @@
           "n_out": 1,
           "start_time": "2025-05-20T22:45:30Z"
         },
-        "id": "8-0",
-        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/1e4c4ab0-1c67-46c7-9e54-5656db7e60ea/public/cluster-1/02313012.json",
-        "title": "Area Outage"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -97.71375,
-          30.21058
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "desc": {
-          "cause": {
-            "EN-US": "Electrical equipment failure",
-            "ES-ES": "Falla del equipo el\u00e9ctrico",
-            "es-US": "Falla del equipo el\u00e9ctrico",
-            "orig": "Equipment"
-          },
-          "cluster": false,
-          "comments": null,
-          "crew_icon": true,
-          "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
-            "orig": "Onsite"
-          },
-          "cust_a": {
-            "val": 51
-          },
-          "etr": "2025-05-21T07:20:23Z",
-          "etr_confidence": null,
-          "inc_id": null,
-          "n_out": 1,
-          "start_time": "2025-05-21T00:30:12Z"
-        },
-        "id": "8-1",
-        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/1e4c4ab0-1c67-46c7-9e54-5656db7e60ea/public/cluster-1/02313012.json",
+        "id": "10-1",
+        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/ae6cd044-c99a-4190-86dc-cb31d071efc4/public/cluster-1/0231301212.json",
         "title": "Area Outage"
       },
       "type": "Feature"
