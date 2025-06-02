@@ -3,10 +3,42 @@
     {
       "geometry": {
         "coordinates": [
-          -97.68146,
-          30.29783
+          [
+            [
+              -97.73638,
+              30.32538
+            ],
+            [
+              -97.73673,
+              30.32611
+            ],
+            [
+              -97.73531,
+              30.33116
+            ],
+            [
+              -97.73504,
+              30.33169
+            ],
+            [
+              -97.73422,
+              30.33154
+            ],
+            [
+              -97.73238,
+              30.33092
+            ],
+            [
+              -97.73341,
+              30.32908
+            ],
+            [
+              -97.73638,
+              30.32538
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
@@ -18,24 +50,24 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": true,
+          "crew_icon": false,
           "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
-            "orig": "En Route"
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
           },
           "cust_a": {
-            "val": 2
+            "val": 136
           },
-          "etr": "2025-06-02T09:26:58Z",
+          "etr": "2025-06-02T09:25:45Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2025-06-02T07:11:30Z"
+          "start_time": "2025-06-02T07:01:08Z"
         },
-        "id": "10-0",
-        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/1650200d-0cf2-434c-b5e2-cb294e6a6679/public/cluster-1/0231301212.json",
+        "id": "7-0",
+        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/5050f186-c064-4842-8ce3-aa884ef605f1/public/cluster-1/0231301.json",
         "title": "Area Outage"
       },
       "type": "Feature"
