@@ -52,14 +52,14 @@
           "cust_a": {
             "val": 6
           },
-          "etr": "2025-06-26T20:53:35Z",
+          "etr": "ETR-EXP",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
           "start_time": "2025-06-26T16:01:56Z"
         },
-        "id": "11-0",
-        "source": "https://kubra.io/cluster-data/130/20d293c6-08fd-41b3-b96b-d2f522c74990/a94732f3-123a-42ee-92ca-86ce00684ae1/public/cluster-1/02313012031.json",
+        "id": "8-0",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/f4417f05-3fc0-4ec8-91ed-2e1568e60082/public/cluster-1/02313012.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -74,22 +74,32 @@
       },
       "properties": {
         "desc": {
-          "cause": null,
-          "cluster": true,
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "es-US": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
+          },
+          "cluster": false,
           "comments": null,
           "crew_icon": false,
-          "crew_status": null,
-          "cust_a": {
-            "val": 14
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
           },
-          "etr": "2025-06-26T22:20:37Z",
+          "cust_a": {
+            "val": 7
+          },
+          "etr": "ETR-EXP",
           "etr_confidence": null,
           "inc_id": null,
-          "n_out": 2,
+          "n_out": 1,
           "start_time": "2025-06-26T19:00:06Z"
         },
-        "id": "14-0",
-        "source": "https://kubra.io/cluster-data/112/20d293c6-08fd-41b3-b96b-d2f522c74990/a94732f3-123a-42ee-92ca-86ce00684ae1/public/cluster-1/02313012033211.json",
+        "id": "8-1",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/f4417f05-3fc0-4ec8-91ed-2e1568e60082/public/cluster-1/02313012.json",
         "title": "Area Outage"
       },
       "type": "Feature"
