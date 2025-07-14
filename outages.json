@@ -1,18 +1,35 @@
 [
   {
-    "lat": 30.34648,
-    "lon": -97.95845,
-    "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/29289b4c-24c7-4212-8adc-81d81dc9ace5/public/cluster-1/02313012.json",
-    "cause": "Under Investigation",
-    "cause_orig": "No Selection",
+    "lat": null,
+    "lon": [
+      [
+        -97.96973,
+        30.32714
+      ],
+      [
+        -97.97214,
+        30.32849
+      ],
+      [
+        -97.96672,
+        30.32797
+      ],
+      [
+        -97.96973,
+        30.32714
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/030/20d293c6-08fd-41b3-b96b-d2f522c74990/77a2b796-67f0-41d5-b594-171af20b676e/public/cluster-1/02313012030.json",
+    "cause": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+    "cause_orig": "Planned",
     "cluster": false,
     "crew_status": "One or more crews have been assigned. ",
-    "crew_status_orig": "En Route",
-    "start_time": "2025-07-14T11:47:19Z",
-    "etr": "ETR-EXP",
+    "crew_status_orig": "Onsite",
+    "start_time": "2025-07-14T14:29:23Z",
+    "etr": "2025-07-14T17:03:31Z",
     "n_out": 1,
-    "type_id": "8-0",
-    "_id": "30.34648-97.95845"
+    "type_id": "11-0",
+    "_id": "null[[-97.96973,30.32714],[-97.97214,30.32849],[-97.96672,30.32797],[-97.96973,30.32714]]"
   },
   {
     "lat": null,
@@ -46,16 +63,31 @@
         30.30007
       ]
     ],
-    "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/29289b4c-24c7-4212-8adc-81d81dc9ace5/public/cluster-1/02313012.json",
+    "source": "https://kubra.io/cluster-data/130/20d293c6-08fd-41b3-b96b-d2f522c74990/77a2b796-67f0-41d5-b594-171af20b676e/public/cluster-1/02313012031.json",
     "cause": "Under Investigation",
     "cause_orig": "No Selection",
     "cluster": false,
     "crew_status": "One or more crews have been assigned. ",
-    "crew_status_orig": "En Route",
+    "crew_status_orig": "Onsite",
     "start_time": "2025-07-14T13:36Z",
     "etr": "2025-07-14T16:32:10Z",
     "n_out": 1,
-    "type_id": "8-1",
+    "type_id": "11-0",
     "_id": "null[[-97.75318,30.30007],[-97.75332,30.30013],[-97.75366,30.3003],[-97.75338,30.30072],[-97.75322,30.30066],[-97.75305,30.30058],[-97.75318,30.30007]]"
+  },
+  {
+    "lat": 30.27212,
+    "lon": -97.74837,
+    "source": "https://kubra.io/cluster-data/330/20d293c6-08fd-41b3-b96b-d2f522c74990/77a2b796-67f0-41d5-b594-171af20b676e/public/cluster-1/02313012033.json",
+    "cause": "Under Investigation",
+    "cause_orig": "No Selection",
+    "cluster": false,
+    "crew_status": "Pending",
+    "crew_status_orig": "N/A",
+    "start_time": "2025-07-14T14:34Z",
+    "etr": "2025-07-14T16:57:44Z",
+    "n_out": 1,
+    "type_id": "11-0",
+    "_id": "30.27212-97.74837"
   }
 ]
