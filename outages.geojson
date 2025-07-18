@@ -10,22 +10,32 @@
       },
       "properties": {
         "desc": {
-          "cause": null,
-          "cluster": true,
+          "cause": {
+            "EN-US": "Electrical equipment failure",
+            "ES-ES": "Falla del equipo el\u00e9ctrico",
+            "es-US": "Falla del equipo el\u00e9ctrico",
+            "orig": "Equipment"
+          },
+          "cluster": false,
           "comments": null,
           "crew_icon": false,
-          "crew_status": null,
-          "cust_a": {
-            "val": 10
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
           },
-          "etr": "2025-07-18T19:06:18Z",
+          "cust_a": {
+            "val": 2
+          },
+          "etr": "2025-07-18T19:38:27Z",
           "etr_confidence": null,
           "inc_id": null,
-          "n_out": 2,
-          "start_time": "2025-07-18T16:47:10Z"
+          "n_out": 1,
+          "start_time": "2025-07-18T17:23:22Z"
         },
-        "id": "14-0",
-        "source": "https://kubra.io/cluster-data/331/20d293c6-08fd-41b3-b96b-d2f522c74990/1d7554e3-7c60-408c-886a-96997cd996c9/public/cluster-1/02313012031133.json",
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/f4739e67-74c9-4f24-a712-c9c5a7baa77d/public/cluster-1/023130120.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -65,7 +75,7 @@
           "start_time": "2025-07-18T17:00Z"
         },
         "id": "9-0",
-        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/1d7554e3-7c60-408c-886a-96997cd996c9/public/cluster-1/023130121.json",
+        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/f4739e67-74c9-4f24-a712-c9c5a7baa77d/public/cluster-1/023130121.json",
         "title": "Area Outage"
       },
       "type": "Feature"
