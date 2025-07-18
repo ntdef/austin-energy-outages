@@ -2,12 +2,12 @@
   {
     "lat": 30.37318,
     "lon": -97.75572,
-    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/93f6554f-d103-446a-bd28-92be0d9f4cfb/public/cluster-1/023130120.json",
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/14be452c-88c2-4e2e-8a2d-35a34f03fbb0/public/cluster-1/023130120.json",
     "cause": "Electrical equipment failure",
     "cause_orig": "Equipment",
     "cluster": false,
     "crew_status": "One or more crews have been assigned. ",
-    "crew_status_orig": "En Route",
+    "crew_status_orig": "Onsite",
     "start_time": "2025-07-18T17:23:22Z",
     "etr": "2025-07-18T21:00:00Z",
     "n_out": 1,
@@ -15,14 +15,50 @@
     "_id": "30.37318-97.75572"
   },
   {
-    "lat": 30.27802,
-    "lon": -97.66154,
-    "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/93f6554f-d103-446a-bd28-92be0d9f4cfb/public/cluster-1/023130121.json",
+    "lat": null,
+    "lon": [
+      [
+        -97.73736,
+        30.21708
+      ],
+      [
+        -97.7376,
+        30.21709
+      ],
+      [
+        -97.73755,
+        30.21733
+      ],
+      [
+        -97.73728,
+        30.21729
+      ],
+      [
+        -97.73736,
+        30.21708
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/14be452c-88c2-4e2e-8a2d-35a34f03fbb0/public/cluster-1/023130120.json",
     "cause": "Under Investigation",
     "cause_orig": "No Selection",
     "cluster": false,
-    "crew_status": "Pending",
-    "crew_status_orig": "N/A",
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "Onsite",
+    "start_time": "2025-07-18T18:40:53Z",
+    "etr": "2025-07-18T21:15:15Z",
+    "n_out": 1,
+    "type_id": "9-1",
+    "_id": "null[[-97.73736,30.21708],[-97.7376,30.21709],[-97.73755,30.21733],[-97.73728,30.21729],[-97.73736,30.21708]]"
+  },
+  {
+    "lat": 30.27802,
+    "lon": -97.66154,
+    "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/14be452c-88c2-4e2e-8a2d-35a34f03fbb0/public/cluster-1/023130121.json",
+    "cause": "Under Investigation",
+    "cause_orig": "No Selection",
+    "cluster": false,
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "En Route",
     "start_time": "2025-07-18T17:00Z",
     "etr": "2025-07-18T19:15:09Z",
     "n_out": 1,
