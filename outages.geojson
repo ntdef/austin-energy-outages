@@ -62,12 +62,12 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "es-US": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
+            "orig": "En Route"
           },
           "cust_a": {
             "val": 29
@@ -78,8 +78,43 @@
           "n_out": 1,
           "start_time": "2025-08-21T07:12:23Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/1f45c880-675d-4e6c-a916-d3edf116ac11/public/cluster-1/0231301.json",
+        "id": "8-0",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/e3c80e85-6824-4772-8b9b-268b10c724ff/public/cluster-1/02313012.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.62771,
+          30.1765
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {},
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 1
+          },
+          "etr": "2025-08-21T09:37:01Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-08-21T07:21:57Z"
+        },
+        "id": "8-1",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/e3c80e85-6824-4772-8b9b-268b10c724ff/public/cluster-1/02313012.json",
         "title": "Area Outage"
       },
       "type": "Feature"
