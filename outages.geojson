@@ -5,10 +5,6 @@
         "coordinates": [
           [
             [
-              -97.7878,
-              30.37066
-            ],
-            [
               -97.79041,
               30.371
             ],
@@ -41,24 +37,24 @@
               30.37204
             ],
             [
-              -97.78777,
-              30.37117
+              -97.78924,
+              30.37191
             ],
             [
-              -97.78767,
-              30.37108
+              -97.78921,
+              30.37174
             ],
             [
-              -97.78755,
-              30.37093
+              -97.7893,
+              30.37163
             ],
             [
-              -97.78766,
-              30.37075
+              -97.79022,
+              30.37106
             ],
             [
-              -97.7878,
-              30.37066
+              -97.79041,
+              30.371
             ]
           ]
         ],
@@ -82,7 +78,7 @@
             "orig": "Onsite"
           },
           "cust_a": {
-            "val": 31
+            "val": 21
           },
           "etr": "2025-09-01T00:00:07Z",
           "etr_confidence": null,
@@ -90,8 +86,43 @@
           "n_out": 1,
           "start_time": "2025-08-31T20:55:57Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/6820ba02-0672-43bc-810b-afcf1bacb002/public/cluster-1/0231301.json",
+        "id": "8-0",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/0530ae17-d8c1-4d3e-a81e-e1bd36a5fc7b/public/cluster-1/02313012.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.65409,
+          30.41743
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {},
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 1
+          },
+          "etr": "2025-09-01T00:32:35Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-08-31T22:17:32Z"
+        },
+        "id": "8-1",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/0530ae17-d8c1-4d3e-a81e-e1bd36a5fc7b/public/cluster-1/02313012.json",
         "title": "Area Outage"
       },
       "type": "Feature"
