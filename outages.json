@@ -3,8 +3,8 @@
     "lat": null,
     "lon": [
       [
-        -97.70074,
-        30.38433
+        -97.70064,
+        30.3853
       ],
       [
         -97.70061,
@@ -31,24 +31,35 @@
         30.38693
       ],
       [
-        -97.70065,
-        30.38452
-      ],
-      [
-        -97.70074,
-        30.38433
+        -97.70064,
+        30.3853
       ]
     ],
-    "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/d407c230-97df-4f93-824b-3645643e4b72/public/cluster-1/0231301.json",
-    "cause": "Under Investigation",
-    "cause_orig": "No Selection",
+    "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/dd202590-fe8d-44c3-ba39-11ce79921318/public/cluster-1/0231301212.json",
+    "cause": "Electrical equipment failure",
+    "cause_orig": "Equipment",
     "cluster": false,
-    "crew_status": "One or more crews have been assigned. ",
-    "crew_status_orig": "Onsite",
+    "crew_status": "Pending",
+    "crew_status_orig": "N/A",
     "start_time": "2025-09-11T03:17:48Z",
     "etr": "2025-09-11T05:57:46Z",
     "n_out": 1,
-    "type_id": "7-0",
-    "_id": "null[[-97.70074,30.38433],[-97.70061,30.38566],[-97.70059,30.38584],[-97.70056,30.38602],[-97.70037,30.3865],[-97.70011,30.38711],[-97.70002,30.38693],[-97.70065,30.38452],[-97.70074,30.38433]]"
+    "type_id": "10-0",
+    "_id": "null[[-97.70064,30.3853],[-97.70061,30.38566],[-97.70059,30.38584],[-97.70056,30.38602],[-97.70037,30.3865],[-97.70011,30.38711],[-97.70002,30.38693],[-97.70064,30.3853]]"
+  },
+  {
+    "lat": 30.36366,
+    "lon": -97.72949,
+    "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/dd202590-fe8d-44c3-ba39-11ce79921318/public/cluster-1/0231301212.json",
+    "cause": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+    "cause_orig": "Planned",
+    "cluster": false,
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "Onsite",
+    "start_time": "2025-09-11T04:06:37Z",
+    "etr": "2025-09-11T06:09:24Z",
+    "n_out": 1,
+    "type_id": "10-1",
+    "_id": "30.36366-97.72949"
   }
 ]
