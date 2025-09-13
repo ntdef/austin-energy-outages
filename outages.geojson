@@ -3,39 +3,66 @@
     {
       "geometry": {
         "coordinates": [
-          -97.61593,
-          30.33437
+          [
+            [
+              -97.72769,
+              30.42468
+            ],
+            [
+              -97.72831,
+              30.42504
+            ],
+            [
+              -97.72847,
+              30.42518
+            ],
+            [
+              -97.72727,
+              30.42646
+            ],
+            [
+              -97.72693,
+              30.42647
+            ],
+            [
+              -97.72573,
+              30.42569
+            ],
+            [
+              -97.72555,
+              30.42555
+            ],
+            [
+              -97.72769,
+              30.42468
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
-          "cause": {
-            "EN-US": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
-            "ES-ES": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
-            "es-US": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
-            "orig": "Planned"
-          },
+          "cause": {},
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "es-US": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
+            "orig": "En Route"
           },
           "cust_a": {
-            "val": 2
+            "val": 25
           },
-          "etr": "2025-09-13T12:14:14Z",
+          "etr": "2025-09-13T15:22:59Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2025-09-13T10:04:01Z"
+          "start_time": "2025-09-13T12:14:39Z"
         },
         "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/36abbc9b-4c22-4180-84c6-3afb3b6d4320/public/cluster-1/0231301.json",
+        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/11414734-9416-4d57-9e5f-babb6de03375/public/cluster-1/0231301.json",
         "title": "Area Outage"
       },
       "type": "Feature"
