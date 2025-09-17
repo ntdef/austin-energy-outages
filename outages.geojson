@@ -5,36 +5,28 @@
         "coordinates": [
           [
             [
-              -97.64918,
-              30.14322
+              -97.78201,
+              30.45457
             ],
             [
-              -97.64896,
-              30.14447
+              -97.78209,
+              30.4551
             ],
             [
-              -97.64809,
-              30.14572
+              -97.78108,
+              30.45533
             ],
             [
-              -97.64149,
-              30.15227
+              -97.78096,
+              30.45493
             ],
             [
-              -97.64267,
-              30.14916
+              -97.7813,
+              30.45472
             ],
             [
-              -97.64552,
-              30.14513
-            ],
-            [
-              -97.6472,
-              30.14359
-            ],
-            [
-              -97.64918,
-              30.14322
+              -97.78201,
+              30.45457
             ]
           ]
         ],
@@ -43,10 +35,10 @@
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "An obstruction to the electrical grid has occurred (e.g., a traffic collision). Restoration time depends on the extent of the damage.",
-            "ES-ES": "Se ha producido una obstrucci\u00f3n a la red el\u00e9ctrica (por ejemplo, un colisi\u00f3n de tr\u00e1fico). El tiempo de restauraci\u00f3n depende de la extensi\u00f3n del da\u00f1o.",
-            "es-US": "Se ha producido una obstrucci\u00f3n a la red el\u00e9ctrica (por ejemplo, un colisi\u00f3n de tr\u00e1fico). El tiempo de restauraci\u00f3n depende de la extensi\u00f3n del da\u00f1o.",
-            "orig": "Interference"
+            "EN-US": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+            "ES-ES": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "es-US": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "orig": "Planned"
           },
           "cluster": false,
           "comments": null,
@@ -58,16 +50,56 @@
             "orig": "Onsite"
           },
           "cust_a": {
-            "val": 17
+            "val": 11
           },
-          "etr": "2025-09-17T13:53:42Z",
+          "etr": "2025-09-17T15:41:00Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2025-09-17T10:48:15Z"
+          "start_time": "2025-09-17T13:06:08Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/44a9e9b0-5060-4bc2-8206-ef7c68d28a38/public/cluster-1/0231301.json",
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/e0fffa2b-e89b-4640-8e53-45093eb18a6d/public/cluster-1/023130120.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.71732,
+          30.369
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+            "ES-ES": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "es-US": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "orig": "Planned"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
+            "orig": "Onsite"
+          },
+          "cust_a": {
+            "val": 2
+          },
+          "etr": "2025-09-17T15:40:27Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-09-17T11:17:30Z"
+        },
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/e0fffa2b-e89b-4640-8e53-45093eb18a6d/public/cluster-1/023130121.json",
         "title": "Area Outage"
       },
       "type": "Feature"
