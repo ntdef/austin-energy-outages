@@ -3,39 +3,59 @@
     {
       "geometry": {
         "coordinates": [
-          -97.79264,
-          30.47382
+          [
+            [
+              -97.75463,
+              30.2932
+            ],
+            [
+              -97.75487,
+              30.29323
+            ],
+            [
+              -97.75482,
+              30.2937
+            ],
+            [
+              -97.75461,
+              30.2937
+            ],
+            [
+              -97.75463,
+              30.2932
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "Under Investigation",
-            "ES-ES": "Investigaci\u00f3n en curso",
-            "es-US": "Investigaci\u00f3n en curso",
-            "orig": "No Selection"
+            "EN-US": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+            "ES-ES": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "es-US": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "orig": "Planned"
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "es-US": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
+            "orig": "Onsite"
           },
           "cust_a": {
-            "val": 1
+            "val": 5
           },
-          "etr": "2025-09-19T14:49:37Z",
+          "etr": "2025-09-19T13:34:20Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2025-09-19T12:34:32Z"
+          "start_time": "2025-09-19T13:03:10Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/a7665e03-8356-4a1b-85a9-50e80f377f4b/public/cluster-1/0231301.json",
+        "id": "10-0",
+        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/15d85225-8333-4e8b-a0ea-d4e59c510700/public/cluster-1/0231301203.json",
         "title": "Area Outage"
       },
       "type": "Feature"
