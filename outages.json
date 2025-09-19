@@ -2,7 +2,7 @@
   {
     "lat": 30.32777,
     "lon": -97.66995,
-    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/96d38f9b-7129-4ea2-9651-c520c3c0609f/public/cluster-1/02313012120.json",
+    "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/d16b8c2e-99c0-44a6-ba0a-2a61a2c1f23a/public/cluster-1/023130121.json",
     "cause": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
     "cause_orig": "Planned",
     "cluster": false,
@@ -11,22 +11,51 @@
     "start_time": "2025-09-19T04:45:41Z",
     "etr": "2025-09-19T07:21:33Z",
     "n_out": 1,
-    "type_id": "11-0",
+    "type_id": "9-0",
     "_id": "30.32777-97.66995"
   },
   {
-    "lat": 30.2352,
-    "lon": -97.73277,
-    "source": "https://kubra.io/cluster-data/220/20d293c6-08fd-41b3-b96b-d2f522c74990/96d38f9b-7129-4ea2-9651-c520c3c0609f/public/cluster-1/02313012122022.json",
-    "cause": null,
-    "cause_orig": null,
-    "cluster": true,
-    "crew_status": null,
-    "crew_status_orig": null,
+    "lat": null,
+    "lon": [
+      [
+        -97.73299,
+        30.23512
+      ],
+      [
+        -97.73363,
+        30.23523
+      ],
+      [
+        -97.73293,
+        30.23591
+      ],
+      [
+        -97.73179,
+        30.2359
+      ],
+      [
+        -97.73175,
+        30.23551
+      ],
+      [
+        -97.73198,
+        30.23541
+      ],
+      [
+        -97.73299,
+        30.23512
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/d16b8c2e-99c0-44a6-ba0a-2a61a2c1f23a/public/cluster-1/023130121.json",
+    "cause": "Electrical equipment failure",
+    "cause_orig": "Equipment",
+    "cluster": false,
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "Onsite",
     "start_time": "2025-09-19T01:25:24Z",
-    "etr": "2025-09-19T07:21:00Z",
-    "n_out": 2,
-    "type_id": "14-0",
-    "_id": "30.2352-97.73277"
+    "etr": "2025-09-19T07:00:00Z",
+    "n_out": 1,
+    "type_id": "9-1",
+    "_id": "null[[-97.73299,30.23512],[-97.73363,30.23523],[-97.73293,30.23591],[-97.73179,30.2359],[-97.73175,30.23551],[-97.73198,30.23541],[-97.73299,30.23512]]"
   }
 ]
