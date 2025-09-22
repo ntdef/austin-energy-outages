@@ -5,32 +5,48 @@
         "coordinates": [
           [
             [
-              -97.66013,
-              30.23584
+              -97.78293,
+              30.47499
             ],
             [
-              -97.66218,
-              30.23799
+              -97.78613,
+              30.47533
             ],
             [
-              -97.65295,
-              30.24497
+              -97.78926,
+              30.47616
             ],
             [
-              -97.65159,
-              30.24454
+              -97.78889,
+              30.47745
             ],
             [
-              -97.64885,
-              30.24314
+              -97.78362,
+              30.47789
             ],
             [
-              -97.65415,
-              30.23706
+              -97.78281,
+              30.47754
             ],
             [
-              -97.66013,
-              30.23584
+              -97.78245,
+              30.47648
+            ],
+            [
+              -97.78227,
+              30.47592
+            ],
+            [
+              -97.78218,
+              30.47523
+            ],
+            [
+              -97.78277,
+              30.475
+            ],
+            [
+              -97.78293,
+              30.47499
             ]
           ]
         ],
@@ -46,24 +62,64 @@
           },
           "cluster": false,
           "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 1321
+          },
+          "etr": "2025-09-22T03:03:57Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-09-22T01:32:52Z"
+        },
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/0bf1b135-763b-4831-8782-a917eaae8b80/public/cluster-1/023130120.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.70474,
+          30.40181
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "es-US": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
+          },
+          "cluster": false,
+          "comments": null,
           "crew_icon": true,
           "crew_status": {
             "EN-US": "One or more crews have been assigned. ",
             "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
-            "orig": "Onsite"
+            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
+            "orig": "En Route"
           },
           "cust_a": {
-            "val": 15
+            "val": 11
           },
-          "etr": "2025-09-22T02:17:20Z",
+          "etr": "2025-09-22T04:01:15Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2025-09-21T23:12Z"
+          "start_time": "2025-09-22T01:41:23Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/4f2f6ae4-19f2-4a66-a871-ba5025e61ae4/public/cluster-1/0231301.json",
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/0bf1b135-763b-4831-8782-a917eaae8b80/public/cluster-1/023130121.json",
         "title": "Area Outage"
       },
       "type": "Feature"
