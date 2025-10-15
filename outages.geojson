@@ -3,34 +3,53 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            [
-              -97.73137,
-              30.42115
-            ],
-            [
-              -97.73153,
-              30.42155
-            ],
-            [
-              -97.73122,
-              30.42155
-            ],
-            [
-              -97.73137,
-              30.42115
-            ]
-          ]
+          -97.79534,
+          30.452
         ],
-        "type": "Polygon"
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {},
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 1
+          },
+          "etr": "2025-10-15T15:08:05Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-10-15T12:44:11Z"
+        },
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/78579e0b-cdfb-43d0-9185-21c59cdbc42e/public/cluster-1/023130120.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.72824,
+          30.35462
+        ],
+        "type": "Point"
       },
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "Under Investigation",
-            "ES-ES": "Investigaci\u00f3n en curso",
-            "es-US": "Investigaci\u00f3n en curso",
-            "orig": "No Selection"
+            "EN-US": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+            "ES-ES": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "es-US": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "orig": "Planned"
           },
           "cluster": false,
           "comments": null,
@@ -42,16 +61,46 @@
             "orig": "En Route"
           },
           "cust_a": {
-            "val": 3
+            "val": 9
           },
-          "etr": "2025-10-15T13:26:40Z",
+          "etr": "2025-10-15T14:31:41Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2025-10-15T11:07:14Z"
+          "start_time": "2025-10-15T12:16:41Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/193ebd3d-a264-41a4-ad1c-a845e3ca1785/public/cluster-1/0231301.json",
+        "id": "13-0",
+        "source": "https://kubra.io/cluster-data/020/20d293c6-08fd-41b3-b96b-d2f522c74990/78579e0b-cdfb-43d0-9185-21c59cdbc42e/public/cluster-1/0231301212020.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.66739,
+          30.31525
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": null,
+          "cluster": true,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": null,
+          "cust_a": {
+            "val": 17
+          },
+          "etr": "2025-10-15T15:31:34Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 2,
+          "start_time": "2025-10-15T12:13Z"
+        },
+        "id": "14-0",
+        "source": "https://kubra.io/cluster-data/332/20d293c6-08fd-41b3-b96b-d2f522c74990/78579e0b-cdfb-43d0-9185-21c59cdbc42e/public/cluster-1/02313012120233.json",
         "title": "Area Outage"
       },
       "type": "Feature"
