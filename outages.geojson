@@ -3,10 +3,34 @@
     {
       "geometry": {
         "coordinates": [
-          -97.78337,
-          30.19862
+          [
+            [
+              -97.69475,
+              30.36216
+            ],
+            [
+              -97.69525,
+              30.36245
+            ],
+            [
+              -97.69593,
+              30.36311
+            ],
+            [
+              -97.69299,
+              30.36653
+            ],
+            [
+              -97.69456,
+              30.36239
+            ],
+            [
+              -97.69475,
+              30.36216
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
@@ -18,24 +42,24 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": true,
+          "crew_icon": false,
           "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
-            "orig": "Onsite"
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
           },
           "cust_a": {
-            "val": 1
+            "val": 121
           },
-          "etr": "2025-11-01T23:50:08Z",
+          "etr": "2025-11-02T01:21:36Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2025-11-01T21:33Z"
+          "start_time": "2025-11-01T22:57Z"
         },
         "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/76d2a83f-3049-44b6-870b-9cbb03327333/public/cluster-1/0231301.json",
+        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/2e3419a7-ee8d-4a22-ac39-548405780950/public/cluster-1/0231301.json",
         "title": "Area Outage"
       },
       "type": "Feature"
