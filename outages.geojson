@@ -3,43 +3,54 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            [
-              -97.77696,
-              30.25158
-            ],
-            [
-              -97.77743,
-              30.25169
-            ],
-            [
-              -97.77716,
-              30.25212
-            ],
-            [
-              -97.77699,
-              30.25232
-            ],
-            [
-              -97.77663,
-              30.25214
-            ],
-            [
-              -97.77696,
-              30.25158
-            ]
-          ]
+          -97.74482,
+          30.44047
         ],
-        "type": "Polygon"
+        "type": "Point"
       },
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
-            "ES-ES": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
-            "es-US": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
-            "orig": "Planned"
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "es-US": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
           },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 1
+          },
+          "etr": "2025-11-18T21:28:29Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-11-18T19:12Z"
+        },
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/6a079bc5-bfb5-4e3c-9f6c-5ea549e8467e/public/cluster-1/023130120.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.69575,
+          30.37715
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {},
           "cluster": false,
           "comments": null,
           "crew_icon": true,
@@ -50,16 +61,16 @@
             "orig": "Onsite"
           },
           "cust_a": {
-            "val": 11
+            "val": 4
           },
-          "etr": "ETR-EXP",
+          "etr": "2025-11-18T21:59:19Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2025-11-18T13:50:31Z"
+          "start_time": "2025-11-18T18:19Z"
         },
-        "id": "9-0",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/1e3dd7fe-114b-4641-9f8d-93f6ea86d25f/public/cluster-1/023130120.json",
+        "id": "10-0",
+        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/6a079bc5-bfb5-4e3c-9f6c-5ea549e8467e/public/cluster-1/0231301212.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -138,8 +149,8 @@
           "n_out": 1,
           "start_time": "2025-11-18T15:18:03Z"
         },
-        "id": "9-0",
-        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/1e3dd7fe-114b-4641-9f8d-93f6ea86d25f/public/cluster-1/023130121.json",
+        "id": "10-1",
+        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/6a079bc5-bfb5-4e3c-9f6c-5ea549e8467e/public/cluster-1/0231301212.json",
         "title": "Area Outage"
       },
       "type": "Feature"
