@@ -5,32 +5,44 @@
         "coordinates": [
           [
             [
-              -97.66702,
-              30.38324
+              -97.75149,
+              30.38175
             ],
             [
-              -97.66797,
-              30.38387
+              -97.7551,
+              30.38637
             ],
             [
-              -97.66776,
-              30.3838
+              -97.75525,
+              30.3866
             ],
             [
-              -97.66754,
-              30.38369
+              -97.75506,
+              30.38685
             ],
             [
-              -97.66734,
-              30.38355
+              -97.75359,
+              30.38733
             ],
             [
-              -97.66716,
-              30.3834
+              -97.75041,
+              30.38784
             ],
             [
-              -97.66702,
-              30.38324
+              -97.74863,
+              30.38325
+            ],
+            [
+              -97.74882,
+              30.38305
+            ],
+            [
+              -97.75025,
+              30.38228
+            ],
+            [
+              -97.75149,
+              30.38175
             ]
           ]
         ],
@@ -39,10 +51,10 @@
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "Electrical equipment failure",
-            "ES-ES": "Falla del equipo el\u00e9ctrico",
-            "es-US": "Falla del equipo el\u00e9ctrico",
-            "orig": "Equipment"
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "es-US": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
           },
           "cluster": false,
           "comments": null,
@@ -50,20 +62,60 @@
           "crew_status": {
             "EN-US": "One or more crews have been assigned. ",
             "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
-            "orig": "Onsite"
+            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
+            "orig": "En Route"
           },
           "cust_a": {
-            "val": 6
+            "val": 142
           },
-          "etr": "ETR-EXP",
+          "etr": "2025-11-23T23:30:10Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2025-11-23T15:53:10Z"
+          "start_time": "2025-11-23T21:25:13Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/ff2ccfce-710f-417f-9643-503a5b473935/public/cluster-1/0231301.json",
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/aaba12c1-428c-4a0b-8498-5f6905b2c832/public/cluster-1/023130120.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.77074,
+          30.29221
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Under Investigation",
+            "ES-ES": "Investigaci\u00f3n en curso",
+            "es-US": "Investigaci\u00f3n en curso",
+            "orig": "No Selection"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 1
+          },
+          "etr": "2025-11-24T00:12:06Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-11-23T21:24Z"
+        },
+        "id": "9-1",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/aaba12c1-428c-4a0b-8498-5f6905b2c832/public/cluster-1/023130120.json",
         "title": "Area Outage"
       },
       "type": "Feature"
