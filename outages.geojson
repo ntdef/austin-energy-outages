@@ -1,4 +1,104 @@
 {
-  "features": [],
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          -97.7875,
+          30.44313
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {},
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 5
+          },
+          "etr": "2025-12-28T10:40:34Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-12-28T08:25:33Z"
+        },
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/c1259e89-cdd1-48ec-8f79-e201a4ca618c/public/cluster-1/023130120.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -97.74359,
+              30.35049
+            ],
+            [
+              -97.74377,
+              30.35065
+            ],
+            [
+              -97.74319,
+              30.35081
+            ],
+            [
+              -97.74279,
+              30.3506
+            ],
+            [
+              -97.74259,
+              30.3505
+            ],
+            [
+              -97.74359,
+              30.35049
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Electrical equipment failure",
+            "ES-ES": "Falla del equipo el\u00e9ctrico",
+            "es-US": "Falla del equipo el\u00e9ctrico",
+            "orig": "Equipment"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 6
+          },
+          "etr": "2025-12-28T10:14:25Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2025-12-28T07:59:25Z"
+        },
+        "id": "9-1",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/c1259e89-cdd1-48ec-8f79-e201a4ca618c/public/cluster-1/023130120.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    }
+  ],
   "type": "FeatureCollection"
 }
