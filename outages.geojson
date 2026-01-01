@@ -3,18 +3,34 @@
     {
       "geometry": {
         "coordinates": [
-          -97.76413,
-          30.2754
+          [
+            [
+              -97.86745,
+              30.22036
+            ],
+            [
+              -97.8671,
+              30.22054
+            ],
+            [
+              -97.86723,
+              30.22044
+            ],
+            [
+              -97.86745,
+              30.22036
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "An obstruction to the electrical grid has occurred (e.g., a traffic collision). Restoration time depends on the extent of the damage.",
-            "ES-ES": "Se ha producido una obstrucci\u00f3n a la red el\u00e9ctrica (por ejemplo, un colisi\u00f3n de tr\u00e1fico). El tiempo de restauraci\u00f3n depende de la extensi\u00f3n del da\u00f1o.",
-            "es-US": "Se ha producido una obstrucci\u00f3n a la red el\u00e9ctrica (por ejemplo, un colisi\u00f3n de tr\u00e1fico). El tiempo de restauraci\u00f3n depende de la extensi\u00f3n del da\u00f1o.",
-            "orig": "Interference"
+            "EN-US": "Electrical equipment failure",
+            "ES-ES": "Falla del equipo el\u00e9ctrico",
+            "es-US": "Falla del equipo el\u00e9ctrico",
+            "orig": "Equipment"
           },
           "cluster": false,
           "comments": null,
@@ -28,14 +44,14 @@
           "cust_a": {
             "val": 3
           },
-          "etr": "ETR-EXP",
+          "etr": "2026-01-01T20:54:46Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-01-01T15:50:46Z"
+          "start_time": "2026-01-01T18:39:46Z"
         },
         "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/9f1c8a50-a053-4cb1-b5f4-5beb8ae84f26/public/cluster-1/0231301.json",
+        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/cf12f289-92e5-4d8e-aed0-3e82b73c47cc/public/cluster-1/0231301.json",
         "title": "Area Outage"
       },
       "type": "Feature"
