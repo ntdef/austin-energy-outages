@@ -1,62 +1,88 @@
 [
   {
-    "lat": 30.24674,
-    "lon": -97.88731,
-    "source": "https://kubra.io/cluster-data/033/20d293c6-08fd-41b3-b96b-d2f522c74990/8bab9d88-51d4-4b19-9a0e-5f92230b75cf/public/cluster-1/023130120330.json",
-    "cause": null,
-    "cause_orig": null,
+    "lat": null,
+    "lon": [
+      [
+        -97.72559,
+        30.34456
+      ],
+      [
+        -97.72731,
+        30.34538
+      ],
+      [
+        -97.72777,
+        30.3456
+      ],
+      [
+        -97.72842,
+        30.34593
+      ],
+      [
+        -97.72849,
+        30.34652
+      ],
+      [
+        -97.72832,
+        30.34644
+      ],
+      [
+        -97.72815,
+        30.34636
+      ],
+      [
+        -97.72567,
+        30.34516
+      ],
+      [
+        -97.72547,
+        30.34492
+      ],
+      [
+        -97.72559,
+        30.34456
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/398066d8-8e7c-4db4-a637-de2398c64cbe/public/cluster-1/02313012120.json",
+    "cause": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+    "cause_orig": "Planned",
     "cluster": false,
-    "crew_status": "Pending",
-    "crew_status_orig": "N/A",
-    "start_time": "2026-01-14T14:57Z",
-    "etr": "2026-01-14T17:14:31Z",
-    "n_out": 1,
-    "type_id": "12-0",
-    "_id": "30.24674-97.88731"
-  },
-  {
-    "lat": 30.22776,
-    "lon": -97.76684,
-    "source": "https://kubra.io/cluster-data/231/20d293c6-08fd-41b3-b96b-d2f522c74990/8bab9d88-51d4-4b19-9a0e-5f92230b75cf/public/cluster-1/02313012033132.json",
-    "cause": null,
-    "cause_orig": null,
-    "cluster": true,
-    "crew_status": null,
-    "crew_status_orig": null,
-    "start_time": "2026-01-14T13:16:12Z",
-    "etr": "2026-01-14T17:41:27Z",
-    "n_out": 2,
-    "type_id": "14-0",
-    "_id": "30.22776-97.76684"
-  },
-  {
-    "lat": 30.34549,
-    "lon": -97.72711,
-    "source": "https://kubra.io/cluster-data/202/20d293c6-08fd-41b3-b96b-d2f522c74990/8bab9d88-51d4-4b19-9a0e-5f92230b75cf/public/cluster-1/02313012120202.json",
-    "cause": null,
-    "cause_orig": null,
-    "cluster": true,
-    "crew_status": null,
-    "crew_status_orig": null,
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "En Route",
     "start_time": "2026-01-14T15:16:09Z",
-    "etr": "2026-01-14T17:36:38Z",
-    "n_out": 2,
-    "type_id": "14-0",
-    "_id": "30.34549-97.72711"
+    "etr": "2026-01-14T16:01:32Z",
+    "n_out": 1,
+    "type_id": "11-0",
+    "_id": "null[[-97.72559,30.34456],[-97.72731,30.34538],[-97.72777,30.3456],[-97.72842,30.34593],[-97.72849,30.34652],[-97.72832,30.34644],[-97.72815,30.34636],[-97.72567,30.34516],[-97.72547,30.34492],[-97.72559,30.34456]]"
   },
   {
     "lat": 30.25747,
     "lon": -97.69494,
-    "source": "https://kubra.io/cluster-data/221/20d293c6-08fd-41b3-b96b-d2f522c74990/8bab9d88-51d4-4b19-9a0e-5f92230b75cf/public/cluster-1/02313012122.json",
+    "source": "https://kubra.io/cluster-data/221/20d293c6-08fd-41b3-b96b-d2f522c74990/398066d8-8e7c-4db4-a637-de2398c64cbe/public/cluster-1/02313012122.json",
     "cause": "Under Investigation",
     "cause_orig": "No Selection",
     "cluster": false,
-    "crew_status": "Pending",
-    "crew_status_orig": "N/A",
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "En Route",
     "start_time": "2026-01-14T15:23Z",
     "etr": "2026-01-14T18:11:36Z",
     "n_out": 1,
     "type_id": "11-0",
     "_id": "30.25747-97.69494"
+  },
+  {
+    "lat": 30.23946,
+    "lon": -97.72176,
+    "source": "https://kubra.io/cluster-data/221/20d293c6-08fd-41b3-b96b-d2f522c74990/398066d8-8e7c-4db4-a637-de2398c64cbe/public/cluster-1/02313012122.json",
+    "cause": "Under Investigation",
+    "cause_orig": "No Selection",
+    "cluster": false,
+    "crew_status": "Pending",
+    "crew_status_orig": "N/A",
+    "start_time": "2026-01-14T15:47:23Z",
+    "etr": "2026-01-14T18:02:27Z",
+    "n_out": 1,
+    "type_id": "11-1",
+    "_id": "30.23946-97.72176"
   }
 ]
