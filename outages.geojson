@@ -3,8 +3,8 @@
     {
       "geometry": {
         "coordinates": [
-          -97.73732,
-          30.42462
+          -97.7205,
+          30.41924
         ],
         "type": "Point"
       },
@@ -26,16 +26,76 @@
             "orig": "En Route"
           },
           "cust_a": {
-            "val": 1
+            "val": 3
           },
-          "etr": "2026-02-06T16:09:58Z",
+          "etr": "2026-02-06T17:18:16Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-02-06T13:54Z"
+          "start_time": "2026-02-06T14:58:47Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/e2d4c9fb-c315-4793-a0f0-03574c7a3e44/public/cluster-1/0231301.json",
+        "id": "8-0",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/fa38f40e-56c3-4e45-ae91-8da81e83aa7f/public/cluster-1/02313012.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -97.69769,
+              30.22964
+            ],
+            [
+              -97.69823,
+              30.22997
+            ],
+            [
+              -97.69788,
+              30.23022
+            ],
+            [
+              -97.69711,
+              30.22976
+            ],
+            [
+              -97.69769,
+              30.22964
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+            "ES-ES": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "es-US": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "orig": "Planned"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
+            "orig": "Onsite"
+          },
+          "cust_a": {
+            "val": 11
+          },
+          "etr": "2026-02-06T17:36:41Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2026-02-06T13:49:57Z"
+        },
+        "id": "8-1",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/fa38f40e-56c3-4e45-ae91-8da81e83aa7f/public/cluster-1/02313012.json",
         "title": "Area Outage"
       },
       "type": "Feature"
