@@ -3,8 +3,8 @@
     {
       "geometry": {
         "coordinates": [
-          -97.97117,
-          30.34077
+          -97.79678,
+          30.47915
         ],
         "type": "Point"
       },
@@ -23,14 +23,14 @@
           "cust_a": {
             "val": 1
           },
-          "etr": "ETR-EXP",
+          "etr": "2026-02-10T23:00:58Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-02-10T17:11:58Z"
+          "start_time": "2026-02-10T20:45:55Z"
         },
-        "id": "10-0",
-        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/7bb0d348-e60f-4408-bcf3-83152ea28221/public/cluster-1/0231301203.json",
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/0619bc39-75e0-4c7b-8d75-54db17f8121f/public/cluster-1/023130120.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -69,8 +69,8 @@
           "n_out": 1,
           "start_time": "2026-02-10T13:14:24Z"
         },
-        "id": "10-1",
-        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/7bb0d348-e60f-4408-bcf3-83152ea28221/public/cluster-1/0231301203.json",
+        "id": "9-1",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/0619bc39-75e0-4c7b-8d75-54db17f8121f/public/cluster-1/023130120.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -78,39 +78,59 @@
     {
       "geometry": {
         "coordinates": [
-          -97.74042,
-          30.29666
+          [
+            [
+              -97.71275,
+              30.3352
+            ],
+            [
+              -97.71241,
+              30.33587
+            ],
+            [
+              -97.7121,
+              30.33643
+            ],
+            [
+              -97.71218,
+              30.33602
+            ],
+            [
+              -97.71275,
+              30.3352
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "Under Investigation",
-            "ES-ES": "Investigaci\u00f3n en curso",
-            "es-US": "Investigaci\u00f3n en curso",
-            "orig": "No Selection"
+            "EN-US": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+            "ES-ES": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "es-US": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "orig": "Planned"
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "es-US": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
+            "orig": "Onsite"
           },
           "cust_a": {
-            "val": 8
+            "val": 7
           },
-          "etr": "2026-02-10T22:06:26Z",
+          "etr": "2026-02-10T23:23:34Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-02-10T19:51:23Z"
+          "start_time": "2026-02-10T20:37:42Z"
         },
-        "id": "10-2",
-        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/7bb0d348-e60f-4408-bcf3-83152ea28221/public/cluster-1/0231301203.json",
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/0619bc39-75e0-4c7b-8d75-54db17f8121f/public/cluster-1/023130121.json",
         "title": "Area Outage"
       },
       "type": "Feature"
