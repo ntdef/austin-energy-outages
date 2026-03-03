@@ -3,69 +3,83 @@
     {
       "geometry": {
         "coordinates": [
-          -97.71677,
-          30.35311
+          [
+            [
+              -97.7281,
+              30.34778
+            ],
+            [
+              -97.72956,
+              30.34847
+            ],
+            [
+              -97.72984,
+              30.34862
+            ],
+            [
+              -97.72999,
+              30.3487
+            ],
+            [
+              -97.73026,
+              30.34887
+            ],
+            [
+              -97.72994,
+              30.34928
+            ],
+            [
+              -97.7294,
+              30.34903
+            ],
+            [
+              -97.72869,
+              30.3487
+            ],
+            [
+              -97.72781,
+              30.34826
+            ],
+            [
+              -97.72786,
+              30.34805
+            ],
+            [
+              -97.7281,
+              30.34778
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
-          "cause": {},
+          "cause": {
+            "EN-US": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+            "ES-ES": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "es-US": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "orig": "Planned"
+          },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "es-US": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
+            "orig": "Onsite"
           },
           "cust_a": {
-            "val": 1
+            "val": 33
           },
-          "etr": "2026-03-03T16:18:31Z",
+          "etr": "2026-03-03T17:43:59Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-03-03T14:03:28Z"
+          "start_time": "2026-03-03T15:03:55Z"
         },
         "id": "10-0",
-        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/4bc7fb68-0397-4e34-86f1-4d9ddcff71fb/public/cluster-1/0231301212.json",
-        "title": "Area Outage"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -97.72994,
-          30.2911
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "desc": {
-          "cause": {},
-          "cluster": false,
-          "comments": null,
-          "crew_icon": false,
-          "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "es-US": "Pendiente",
-            "orig": "N/A"
-          },
-          "cust_a": {
-            "val": 1
-          },
-          "etr": "2026-03-03T15:00:03Z",
-          "etr_confidence": null,
-          "inc_id": null,
-          "n_out": 1,
-          "start_time": "2026-03-03T12:35:56Z"
-        },
-        "id": "10-1",
-        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/4bc7fb68-0397-4e34-86f1-4d9ddcff71fb/public/cluster-1/0231301212.json",
+        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/f56d27f0-e10d-4e55-9ba2-0a1f6358066f/public/cluster-1/0231301212.json",
         "title": "Area Outage"
       },
       "type": "Feature"
