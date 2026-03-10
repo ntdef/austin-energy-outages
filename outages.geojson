@@ -5,24 +5,24 @@
         "coordinates": [
           [
             [
-              -97.93142,
-              30.31299
+              -97.91667,
+              30.38346
             ],
             [
-              -97.9314,
-              30.31318
+              -97.91664,
+              30.38414
             ],
             [
-              -97.93132,
-              30.3134
+              -97.91656,
+              30.38434
             ],
             [
-              -97.93122,
-              30.31359
+              -97.9154,
+              30.38381
             ],
             [
-              -97.93142,
-              30.31299
+              -97.91667,
+              30.38346
             ]
           ]
         ],
@@ -38,24 +38,112 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "es-US": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
+            "orig": "Onsite"
           },
           "cust_a": {
-            "val": 4
+            "val": 9
           },
-          "etr": "2026-03-10T17:00:00Z",
+          "etr": "2026-03-10T17:22:59Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-03-10T14:12:28Z"
+          "start_time": "2026-03-10T12:27:11Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/7338f234-7544-403e-9bde-729d3d447ea0/public/cluster-1/0231301.json",
+        "id": "8-0",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/2b80476d-b594-44e5-a594-d26e85a342da/public/cluster-1/02313012.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -97.78266,
+              30.26953
+            ],
+            [
+              -97.78869,
+              30.2737
+            ],
+            [
+              -97.78889,
+              30.27417
+            ],
+            [
+              -97.78823,
+              30.27428
+            ],
+            [
+              -97.7879,
+              30.27431
+            ],
+            [
+              -97.78717,
+              30.27434
+            ],
+            [
+              -97.78644,
+              30.27432
+            ],
+            [
+              -97.78542,
+              30.27414
+            ],
+            [
+              -97.78515,
+              30.27398
+            ],
+            [
+              -97.78464,
+              30.27351
+            ],
+            [
+              -97.78144,
+              30.26957
+            ],
+            [
+              -97.78266,
+              30.26953
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+            "ES-ES": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "es-US": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "orig": "Planned"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
+            "orig": "Onsite"
+          },
+          "cust_a": {
+            "val": 52
+          },
+          "etr": "2026-03-10T17:41:16Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2026-03-10T15:11:16Z"
+        },
+        "id": "8-1",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/2b80476d-b594-44e5-a594-d26e85a342da/public/cluster-1/02313012.json",
         "title": "Area Outage"
       },
       "type": "Feature"
