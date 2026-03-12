@@ -5,20 +5,24 @@
         "coordinates": [
           [
             [
-              -97.76128,
-              30.39202
+              -97.75727,
+              30.44088
             ],
             [
-              -97.76148,
-              30.39206
+              -97.75746,
+              30.44125
             ],
             [
-              -97.76086,
-              30.39204
+              -97.75699,
+              30.44145
             ],
             [
-              -97.76128,
-              30.39202
+              -97.75685,
+              30.44099
+            ],
+            [
+              -97.75727,
+              30.44088
             ]
           ]
         ],
@@ -42,6 +46,62 @@
             "orig": "N/A"
           },
           "cust_a": {
+            "val": 6
+          },
+          "etr": "2026-03-13T00:00:40Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2026-03-12T21:41:27Z"
+        },
+        "id": "10-0",
+        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/3fe41130-8bc9-4f85-b97f-f4affa881709/public/cluster-1/0231301203.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -97.76128,
+              30.39202
+            ],
+            [
+              -97.76148,
+              30.39206
+            ],
+            [
+              -97.76086,
+              30.39204
+            ],
+            [
+              -97.76128,
+              30.39202
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Electrical equipment failure",
+            "ES-ES": "Falla del equipo el\u00e9ctrico",
+            "es-US": "Falla del equipo el\u00e9ctrico",
+            "orig": "Equipment"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
+            "orig": "En Route"
+          },
+          "cust_a": {
             "val": 4
           },
           "etr": "2026-03-13T00:14:19Z",
@@ -50,8 +110,8 @@
           "n_out": 1,
           "start_time": "2026-03-12T21:39:18Z"
         },
-        "id": "9-0",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/4766b935-3c84-460f-92a5-1c47ee1a85a2/public/cluster-1/023130120.json",
+        "id": "10-1",
+        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/3fe41130-8bc9-4f85-b97f-f4affa881709/public/cluster-1/0231301203.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -67,10 +127,10 @@
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "Under Investigation",
-            "ES-ES": "Investigaci\u00f3n en curso",
-            "es-US": "Investigaci\u00f3n en curso",
-            "orig": "No Selection"
+            "EN-US": "An animal came in contact with equipment",
+            "ES-ES": "Un animal entr\u00f3 en contacto con el equipo",
+            "es-US": "Un animal entr\u00f3 en contacto con el equipo",
+            "orig": "Animal"
           },
           "cluster": false,
           "comments": null,
@@ -78,8 +138,8 @@
           "crew_status": {
             "EN-US": "One or more crews have been assigned. ",
             "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
-            "orig": "En Route"
+            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
+            "orig": "Onsite"
           },
           "cust_a": {
             "val": 1
@@ -90,8 +150,8 @@
           "n_out": 1,
           "start_time": "2026-03-12T20:43:38Z"
         },
-        "id": "9-1",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/4766b935-3c84-460f-92a5-1c47ee1a85a2/public/cluster-1/023130120.json",
+        "id": "10-2",
+        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/3fe41130-8bc9-4f85-b97f-f4affa881709/public/cluster-1/0231301203.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -131,7 +191,7 @@
           "start_time": "2026-03-12T12:38:24Z"
         },
         "id": "9-0",
-        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/4766b935-3c84-460f-92a5-1c47ee1a85a2/public/cluster-1/023130121.json",
+        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/3fe41130-8bc9-4f85-b97f-f4affa881709/public/cluster-1/023130121.json",
         "title": "Area Outage"
       },
       "type": "Feature"
