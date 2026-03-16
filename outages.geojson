@@ -50,8 +50,8 @@
           "crew_status": {
             "EN-US": "One or more crews have been assigned. ",
             "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
-            "orig": "En Route"
+            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
+            "orig": "Onsite"
           },
           "cust_a": {
             "val": 14
@@ -63,7 +63,7 @@
           "start_time": "2026-03-16T05:47:22Z"
         },
         "id": "10-0",
-        "source": "https://kubra.io/cluster-data/102/20d293c6-08fd-41b3-b96b-d2f522c74990/48c2d24e-e38a-4967-96bf-4de79feca16f/public/cluster-1/0231301201.json",
+        "source": "https://kubra.io/cluster-data/102/20d293c6-08fd-41b3-b96b-d2f522c74990/0fb000ab-ff0b-456e-8d56-5512a3136913/public/cluster-1/0231301201.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -71,39 +71,34 @@
     {
       "geometry": {
         "coordinates": [
-          -97.83791,
-          30.23586
+          -97.77119,
+          30.21794
         ],
         "type": "Point"
       },
       "properties": {
         "desc": {
-          "cause": {
-            "EN-US": "Electrical equipment failure",
-            "ES-ES": "Falla del equipo el\u00e9ctrico",
-            "es-US": "Falla del equipo el\u00e9ctrico",
-            "orig": "Equipment"
-          },
+          "cause": {},
           "cluster": false,
           "comments": null,
-          "crew_icon": true,
+          "crew_icon": false,
           "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
-            "orig": "Onsite"
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
           },
           "cust_a": {
-            "val": 5
+            "val": 2
           },
-          "etr": "2026-03-16T10:48:15Z",
+          "etr": "2026-03-16T09:51:18Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-03-16T00:31Z"
+          "start_time": "2026-03-16T07:31:35Z"
         },
         "id": "10-0",
-        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/48c2d24e-e38a-4967-96bf-4de79feca16f/public/cluster-1/0231301203.json",
+        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/0fb000ab-ff0b-456e-8d56-5512a3136913/public/cluster-1/0231301203.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -113,76 +108,40 @@
         "coordinates": [
           [
             [
-              -97.77042,
-              30.2576
+              -97.79022,
+              30.17478
             ],
             [
-              -97.7709,
-              30.25771
+              -97.79132,
+              30.181
             ],
             [
-              -97.77061,
-              30.25833
+              -97.78788,
+              30.18269
             ],
             [
-              -97.77047,
-              30.25858
+              -97.78696,
+              30.18294
             ],
             [
-              -97.76999,
-              30.25836
+              -97.78689,
+              30.18251
             ],
             [
-              -97.77027,
-              30.25783
+              -97.78684,
+              30.17918
             ],
             [
-              -97.77042,
-              30.2576
+              -97.78689,
+              30.17873
+            ],
+            [
+              -97.79022,
+              30.17478
             ]
           ]
         ],
         "type": "Polygon"
-      },
-      "properties": {
-        "desc": {
-          "cause": {
-            "EN-US": "Electrical equipment failure",
-            "ES-ES": "Falla del equipo el\u00e9ctrico",
-            "es-US": "Falla del equipo el\u00e9ctrico",
-            "orig": "Equipment"
-          },
-          "cluster": false,
-          "comments": null,
-          "crew_icon": true,
-          "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
-            "orig": "Onsite"
-          },
-          "cust_a": {
-            "val": 10
-          },
-          "etr": "2026-03-16T08:16:16Z",
-          "etr_confidence": null,
-          "inc_id": null,
-          "n_out": 1,
-          "start_time": "2026-03-16T05:36:24Z"
-        },
-        "id": "10-1",
-        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/48c2d24e-e38a-4967-96bf-4de79feca16f/public/cluster-1/0231301203.json",
-        "title": "Area Outage"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -97.7785,
-          30.21899
-        ],
-        "type": "Point"
       },
       "properties": {
         "desc": {
@@ -198,20 +157,20 @@
           "crew_status": {
             "EN-US": "One or more crews have been assigned. ",
             "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
-            "orig": "Onsite"
+            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
+            "orig": "En Route"
           },
           "cust_a": {
-            "val": 1
+            "val": 118
           },
-          "etr": "2026-03-16T08:43:21Z",
+          "etr": "2026-03-16T09:51:41Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-03-16T06:27:23Z"
+          "start_time": "2026-03-16T07:17:08Z"
         },
-        "id": "10-2",
-        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/48c2d24e-e38a-4967-96bf-4de79feca16f/public/cluster-1/0231301203.json",
+        "id": "10-1",
+        "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/0fb000ab-ff0b-456e-8d56-5512a3136913/public/cluster-1/0231301203.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -251,7 +210,7 @@
           "start_time": "2026-03-16T06:46:41Z"
         },
         "id": "10-0",
-        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/48c2d24e-e38a-4967-96bf-4de79feca16f/public/cluster-1/0231301212.json",
+        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/0fb000ab-ff0b-456e-8d56-5512a3136913/public/cluster-1/0231301212.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -274,12 +233,12 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "es-US": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
+            "orig": "Onsite"
           },
           "cust_a": {
             "val": 1
@@ -291,7 +250,7 @@
           "start_time": "2026-03-16T04:24:43Z"
         },
         "id": "10-1",
-        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/48c2d24e-e38a-4967-96bf-4de79feca16f/public/cluster-1/0231301212.json",
+        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/0fb000ab-ff0b-456e-8d56-5512a3136913/public/cluster-1/0231301212.json",
         "title": "Area Outage"
       },
       "type": "Feature"
