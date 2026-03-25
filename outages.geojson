@@ -3,10 +3,86 @@
     {
       "geometry": {
         "coordinates": [
-          -97.70527,
-          30.39659
+          [
+            [
+              -97.74589,
+              30.19111
+            ],
+            [
+              -97.74607,
+              30.19114
+            ],
+            [
+              -97.74624,
+              30.19119
+            ],
+            [
+              -97.7464,
+              30.19124
+            ],
+            [
+              -97.74655,
+              30.19131
+            ],
+            [
+              -97.7467,
+              30.19141
+            ],
+            [
+              -97.74584,
+              30.19277
+            ],
+            [
+              -97.74563,
+              30.1929
+            ],
+            [
+              -97.74544,
+              30.19292
+            ],
+            [
+              -97.74493,
+              30.19293
+            ],
+            [
+              -97.74489,
+              30.19279
+            ],
+            [
+              -97.74489,
+              30.19264
+            ],
+            [
+              -97.74488,
+              30.1925
+            ],
+            [
+              -97.7449,
+              30.19204
+            ],
+            [
+              -97.74495,
+              30.19159
+            ],
+            [
+              -97.74497,
+              30.19142
+            ],
+            [
+              -97.74499,
+              30.19128
+            ],
+            [
+              -97.74505,
+              30.19111
+            ],
+            [
+              -97.74589,
+              30.19111
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
@@ -26,16 +102,16 @@
             "orig": "Onsite"
           },
           "cust_a": {
-            "val": 1
+            "val": 39
           },
-          "etr": "ETR-EXP",
+          "etr": "2026-03-25T20:32:16Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-03-25T14:46:45Z"
+          "start_time": "2026-03-25T17:28:01Z"
         },
-        "id": "12-0",
-        "source": "https://kubra.io/cluster-data/002/20d293c6-08fd-41b3-b96b-d2f522c74990/14ec0ef4-3792-484f-a6ee-bd60e2270bb9/public/cluster-1/023130121200.json",
+        "id": "9-0",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/89079abd-c9ce-40b8-a74c-183527a61003/public/cluster-1/023130120.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -58,24 +134,24 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "es-US": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
+            "orig": "En Route"
           },
           "cust_a": {
             "val": 1
           },
-          "etr": "2026-03-25T18:27:38Z",
+          "etr": "ETR-EXP",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
           "start_time": "2026-03-25T16:11Z"
         },
         "id": "13-0",
-        "source": "https://kubra.io/cluster-data/320/20d293c6-08fd-41b3-b96b-d2f522c74990/14ec0ef4-3792-484f-a6ee-bd60e2270bb9/public/cluster-1/0231301212023.json",
+        "source": "https://kubra.io/cluster-data/320/20d293c6-08fd-41b3-b96b-d2f522c74990/89079abd-c9ce-40b8-a74c-183527a61003/public/cluster-1/0231301212023.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -115,7 +191,42 @@
           "start_time": "2026-03-25T17:18:37Z"
         },
         "id": "13-1",
-        "source": "https://kubra.io/cluster-data/320/20d293c6-08fd-41b3-b96b-d2f522c74990/14ec0ef4-3792-484f-a6ee-bd60e2270bb9/public/cluster-1/0231301212023.json",
+        "source": "https://kubra.io/cluster-data/320/20d293c6-08fd-41b3-b96b-d2f522c74990/89079abd-c9ce-40b8-a74c-183527a61003/public/cluster-1/0231301212023.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.68277,
+          30.29833
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {},
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
+            "orig": "Onsite"
+          },
+          "cust_a": {
+            "val": 2
+          },
+          "etr": "2026-03-25T20:31:28Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2026-03-25T17:14:05Z"
+        },
+        "id": "13-2",
+        "source": "https://kubra.io/cluster-data/320/20d293c6-08fd-41b3-b96b-d2f522c74990/89079abd-c9ce-40b8-a74c-183527a61003/public/cluster-1/0231301212023.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -155,7 +266,7 @@
           "start_time": "2026-03-25T13:27:40Z"
         },
         "id": "11-0",
-        "source": "https://kubra.io/cluster-data/221/20d293c6-08fd-41b3-b96b-d2f522c74990/14ec0ef4-3792-484f-a6ee-bd60e2270bb9/public/cluster-1/02313012122.json",
+        "source": "https://kubra.io/cluster-data/221/20d293c6-08fd-41b3-b96b-d2f522c74990/89079abd-c9ce-40b8-a74c-183527a61003/public/cluster-1/02313012122.json",
         "title": "Area Outage"
       },
       "type": "Feature"
