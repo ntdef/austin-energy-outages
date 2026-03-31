@@ -1,23 +1,44 @@
 [
   {
-    "lat": 30.29202,
-    "lon": -97.73805,
-    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/6595c6ec-1310-4cb8-a11e-2d9a2b580e6f/public/cluster-1/023130120.json",
+    "lat": null,
+    "lon": [
+      [
+        -97.84303,
+        30.28174
+      ],
+      [
+        -97.84358,
+        30.28198
+      ],
+      [
+        -97.84329,
+        30.28221
+      ],
+      [
+        -97.84282,
+        30.28199
+      ],
+      [
+        -97.84303,
+        30.28174
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/5c87682e-0f23-45ed-bb01-e6da07228f59/public/cluster-1/023130120.json",
     "cause": "Electrical equipment failure",
     "cause_orig": "Equipment",
     "cluster": false,
     "crew_status": "One or more crews have been assigned. ",
-    "crew_status_orig": "En Route",
-    "start_time": "2026-03-30T18:43Z",
-    "etr": "ETR-EXP",
+    "crew_status_orig": "Onsite",
+    "start_time": "2026-03-31T00:43:34Z",
+    "etr": "2026-03-31T03:47:49Z",
     "n_out": 1,
     "type_id": "9-0",
-    "_id": "30.29202-97.73805"
+    "_id": "null[[-97.84303,30.28174],[-97.84358,30.28198],[-97.84329,30.28221],[-97.84282,30.28199],[-97.84303,30.28174]]"
   },
   {
     "lat": 30.39691,
     "lon": -97.6709,
-    "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/6595c6ec-1310-4cb8-a11e-2d9a2b580e6f/public/cluster-1/023130121.json",
+    "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/5c87682e-0f23-45ed-bb01-e6da07228f59/public/cluster-1/0231301212.json",
     "cause": null,
     "cause_orig": null,
     "cluster": false,
@@ -26,7 +47,90 @@
     "start_time": "2026-03-30T21:17:45Z",
     "etr": "ETR-EXP",
     "n_out": 1,
-    "type_id": "9-0",
+    "type_id": "10-0",
     "_id": "30.39691-97.6709"
+  },
+  {
+    "lat": null,
+    "lon": [
+      [
+        -97.72877,
+        30.32272
+      ],
+      [
+        -97.72922,
+        30.32353
+      ],
+      [
+        -97.729,
+        30.32401
+      ],
+      [
+        -97.72874,
+        30.32363
+      ],
+      [
+        -97.72877,
+        30.32272
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/5c87682e-0f23-45ed-bb01-e6da07228f59/public/cluster-1/0231301212.json",
+    "cause": "An obstruction to the electrical grid has occurred (e.g., a traffic collision). Restoration time depends on the extent of the damage.",
+    "cause_orig": "Interference",
+    "cluster": false,
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "Onsite",
+    "start_time": "2026-03-30T23:29Z",
+    "etr": "ETR-EXP",
+    "n_out": 1,
+    "type_id": "10-1",
+    "_id": "null[[-97.72877,30.32272],[-97.72922,30.32353],[-97.729,30.32401],[-97.72874,30.32363],[-97.72877,30.32272]]"
+  },
+  {
+    "lat": null,
+    "lon": [
+      [
+        -97.66519,
+        30.31663
+      ],
+      [
+        -97.66506,
+        30.31697
+      ],
+      [
+        -97.66494,
+        30.31678
+      ],
+      [
+        -97.66519,
+        30.31663
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/5c87682e-0f23-45ed-bb01-e6da07228f59/public/cluster-1/0231301212.json",
+    "cause": "Under Investigation",
+    "cause_orig": "No Selection",
+    "cluster": false,
+    "crew_status": "Pending",
+    "crew_status_orig": "N/A",
+    "start_time": "2026-03-31T00:03:33Z",
+    "etr": "ETR-EXP",
+    "n_out": 1,
+    "type_id": "10-2",
+    "_id": "null[[-97.66519,30.31663],[-97.66506,30.31697],[-97.66494,30.31678],[-97.66519,30.31663]]"
+  },
+  {
+    "lat": 30.23478,
+    "lon": -97.68567,
+    "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/5c87682e-0f23-45ed-bb01-e6da07228f59/public/cluster-1/0231301212.json",
+    "cause": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+    "cause_orig": "Planned",
+    "cluster": false,
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "Onsite",
+    "start_time": "2026-03-31T02:56:13Z",
+    "etr": "2026-03-31T05:14:27Z",
+    "n_out": 1,
+    "type_id": "10-3",
+    "_id": "30.23478-97.68567"
   }
 ]
