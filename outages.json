@@ -1,18 +1,54 @@
 [
   {
-    "lat": 30.279,
-    "lon": -97.76515,
-    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/010db8ae-e415-415c-b113-397421d9cec2/public/cluster-1/023130120.json",
+    "lat": null,
+    "lon": [
+      [
+        -97.765,
+        30.2783
+      ],
+      [
+        -97.76546,
+        30.27834
+      ],
+      [
+        -97.76512,
+        30.27917
+      ],
+      [
+        -97.7648,
+        30.27878
+      ],
+      [
+        -97.765,
+        30.2783
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/ff24cbb8-8e94-45db-8c95-86b2bd9ce915/public/cluster-1/0231301203.json",
     "cause": "Electrical equipment failure",
     "cause_orig": "Equipment",
     "cluster": false,
     "crew_status": "One or more crews have been assigned. ",
-    "crew_status_orig": "En Route",
-    "start_time": "2026-04-03T18:54Z",
-    "etr": "2026-04-03T21:14:38Z",
+    "crew_status_orig": "Onsite",
+    "start_time": "2026-04-03T21:27:34Z",
+    "etr": "2026-04-04T00:02:20Z",
     "n_out": 1,
-    "type_id": "9-0",
-    "_id": "30.279-97.76515"
+    "type_id": "10-0",
+    "_id": "null[[-97.765,30.2783],[-97.76546,30.27834],[-97.76512,30.27917],[-97.7648,30.27878],[-97.765,30.2783]]"
+  },
+  {
+    "lat": 30.21807,
+    "lon": -97.77429,
+    "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/ff24cbb8-8e94-45db-8c95-86b2bd9ce915/public/cluster-1/0231301203.json",
+    "cause": "Under Investigation",
+    "cause_orig": "No Selection",
+    "cluster": false,
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "En Route",
+    "start_time": "2026-04-03T21:22Z",
+    "etr": "2026-04-03T23:41:09Z",
+    "n_out": 1,
+    "type_id": "10-1",
+    "_id": "30.21807-97.77429"
   },
   {
     "lat": null,
@@ -34,7 +70,7 @@
         30.18783
       ]
     ],
-    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/010db8ae-e415-415c-b113-397421d9cec2/public/cluster-1/023130120.json",
+    "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/ff24cbb8-8e94-45db-8c95-86b2bd9ce915/public/cluster-1/0231301203.json",
     "cause": "Electrical equipment failure",
     "cause_orig": "Equipment",
     "cluster": false,
@@ -43,7 +79,7 @@
     "start_time": "2026-04-03T10:36:04Z",
     "etr": "2026-04-03T22:30:00Z",
     "n_out": 1,
-    "type_id": "9-1",
+    "type_id": "10-2",
     "_id": "null[[-97.75102,30.18783],[-97.75078,30.18821],[-97.75085,30.18807],[-97.75102,30.18783]]"
   },
   {
@@ -70,12 +106,12 @@
         30.31748
       ]
     ],
-    "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/010db8ae-e415-415c-b113-397421d9cec2/public/cluster-1/023130121.json",
-    "cause": "Under Investigation",
-    "cause_orig": "No Selection",
+    "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/ff24cbb8-8e94-45db-8c95-86b2bd9ce915/public/cluster-1/023130121.json",
+    "cause": "A tree, branch or vegetation contacted power lines",
+    "cause_orig": "Vegetation",
     "cluster": false,
-    "crew_status": "One or more crews have been assigned. ",
-    "crew_status_orig": "En Route",
+    "crew_status": "Pending",
+    "crew_status_orig": "N/A",
     "start_time": "2026-04-03T19:26:24Z",
     "etr": "2026-04-03T21:45:49Z",
     "n_out": 1,
