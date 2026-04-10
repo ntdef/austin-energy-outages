@@ -3,39 +3,69 @@
     {
       "geometry": {
         "coordinates": [
-          -97.7096,
-          30.32366
+          -97.7806,
+          30.29723
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": null,
+          "cluster": true,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": null,
+          "cust_a": {
+            "val": 23
+          },
+          "etr": "2026-04-10T17:46:50Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 2,
+          "start_time": "2026-04-10T12:51:20Z"
+        },
+        "id": "14-0",
+        "source": "https://kubra.io/cluster-data/323/20d293c6-08fd-41b3-b96b-d2f522c74990/a294a095-5a55-4045-a71b-a1d105db642f/public/cluster-1/02313012031323.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.6823,
+          30.29691
         ],
         "type": "Point"
       },
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
-            "ES-ES": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
-            "es-US": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
-            "orig": "Planned"
+            "EN-US": "An obstruction to the electrical grid has occurred (e.g., a traffic collision). Restoration time depends on the extent of the damage.",
+            "ES-ES": "Se ha producido una obstrucci\u00f3n a la red el\u00e9ctrica (por ejemplo, un colisi\u00f3n de tr\u00e1fico). El tiempo de restauraci\u00f3n depende de la extensi\u00f3n del da\u00f1o.",
+            "es-US": "Se ha producido una obstrucci\u00f3n a la red el\u00e9ctrica (por ejemplo, un colisi\u00f3n de tr\u00e1fico). El tiempo de restauraci\u00f3n depende de la extensi\u00f3n del da\u00f1o.",
+            "orig": "Interference"
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": true,
+          "crew_icon": false,
           "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
-            "orig": "Onsite"
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
           },
           "cust_a": {
-            "val": 15
+            "val": 1
           },
-          "etr": "2026-04-10T16:34:36Z",
+          "etr": "2026-04-10T17:56:35Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-04-10T12:46:31Z"
+          "start_time": "2026-04-10T13:57:43Z"
         },
         "id": "11-0",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/ea0e06f5-7c3c-4010-b772-0a19b8ca96a8/public/cluster-1/02313012120.json",
+        "source": "https://kubra.io/cluster-data/221/20d293c6-08fd-41b3-b96b-d2f522c74990/a294a095-5a55-4045-a71b-a1d105db642f/public/cluster-1/02313012122.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -74,78 +104,8 @@
           "n_out": 1,
           "start_time": "2026-04-10T14:09:14Z"
         },
-        "id": "14-0",
-        "source": "https://kubra.io/cluster-data/110/20d293c6-08fd-41b3-b96b-d2f522c74990/ea0e06f5-7c3c-4010-b772-0a19b8ca96a8/public/cluster-1/02313012122011.json",
-        "title": "Area Outage"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -97.66356,
-          30.28475
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "desc": {
-          "cause": {},
-          "cluster": false,
-          "comments": null,
-          "crew_icon": false,
-          "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "es-US": "Pendiente",
-            "orig": "N/A"
-          },
-          "cust_a": {
-            "val": 20
-          },
-          "etr": "ETR-EXP",
-          "etr_confidence": null,
-          "inc_id": null,
-          "n_out": 1,
-          "start_time": "2026-04-10T12:08:11Z"
-        },
-        "id": "14-1",
-        "source": "https://kubra.io/cluster-data/110/20d293c6-08fd-41b3-b96b-d2f522c74990/ea0e06f5-7c3c-4010-b772-0a19b8ca96a8/public/cluster-1/02313012122011.json",
-        "title": "Area Outage"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -97.59217,
-          30.26691
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "desc": {
-          "cause": {},
-          "cluster": false,
-          "comments": null,
-          "crew_icon": false,
-          "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "es-US": "Pendiente",
-            "orig": "N/A"
-          },
-          "cust_a": {
-            "val": 30
-          },
-          "etr": "ETR-EXP",
-          "etr_confidence": null,
-          "inc_id": null,
-          "n_out": 1,
-          "start_time": "2026-04-10T11:58:56Z"
-        },
-        "id": "12-0",
-        "source": "https://kubra.io/cluster-data/122/20d293c6-08fd-41b3-b96b-d2f522c74990/ea0e06f5-7c3c-4010-b772-0a19b8ca96a8/public/cluster-1/023130121221.json",
+        "id": "11-1",
+        "source": "https://kubra.io/cluster-data/221/20d293c6-08fd-41b3-b96b-d2f522c74990/a294a095-5a55-4045-a71b-a1d105db642f/public/cluster-1/02313012122.json",
         "title": "Area Outage"
       },
       "type": "Feature"
