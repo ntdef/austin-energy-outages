@@ -5,28 +5,20 @@
         "coordinates": [
           [
             [
-              -97.74694,
-              30.31463
+              -97.69266,
+              30.44159
             ],
             [
-              -97.74728,
-              30.31505
+              -97.69441,
+              30.44294
             ],
             [
-              -97.74721,
-              30.31517
+              -97.69387,
+              30.44305
             ],
             [
-              -97.74593,
-              30.31723
-            ],
-            [
-              -97.74539,
-              30.31702
-            ],
-            [
-              -97.74694,
-              30.31463
+              -97.69266,
+              30.44159
             ]
           ]
         ],
@@ -42,24 +34,24 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": true,
+          "crew_icon": false,
           "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
-            "orig": "En Route"
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
           },
           "cust_a": {
-            "val": 35
+            "val": 46
           },
-          "etr": "2026-04-10T22:31:22Z",
+          "etr": "2026-04-10T23:47:24Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-04-10T19:27:03Z"
+          "start_time": "2026-04-10T20:43:10Z"
         },
-        "id": "9-0",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/504e2ab6-fadc-4c42-8e99-68df7628ae5d/public/cluster-1/023130120.json",
+        "id": "11-0",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/99061529-2060-453d-b065-0021dff5b78a/public/cluster-1/02313012120.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -67,8 +59,8 @@
     {
       "geometry": {
         "coordinates": [
-          -97.66356,
-          30.28475
+          -97.67795,
+          30.2791
         ],
         "type": "Point"
       },
@@ -90,16 +82,46 @@
             "orig": "N/A"
           },
           "cust_a": {
-            "val": 20
+            "val": 1
           },
-          "etr": "2026-04-10T21:46:12Z",
+          "etr": "2026-04-10T22:45:50Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
+          "start_time": "2026-04-10T20:30:46Z"
+        },
+        "id": "14-0",
+        "source": "https://kubra.io/cluster-data/010/20d293c6-08fd-41b3-b96b-d2f522c74990/99061529-2060-453d-b065-0021dff5b78a/public/cluster-1/02313012122010.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.66356,
+          30.28475
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": null,
+          "cluster": true,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": null,
+          "cust_a": {
+            "val": 21
+          },
+          "etr": "2026-04-10T22:56:17Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 2,
           "start_time": "2026-04-10T19:30:08Z"
         },
-        "id": "9-0",
-        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/504e2ab6-fadc-4c42-8e99-68df7628ae5d/public/cluster-1/023130121.json",
+        "id": "14-0",
+        "source": "https://kubra.io/cluster-data/110/20d293c6-08fd-41b3-b96b-d2f522c74990/99061529-2060-453d-b065-0021dff5b78a/public/cluster-1/02313012122011.json",
         "title": "Area Outage"
       },
       "type": "Feature"
