@@ -3,10 +3,85 @@
     {
       "geometry": {
         "coordinates": [
-          -97.75238,
-          30.34083
+          -97.88865,
+          30.38299
         ],
         "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {},
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 1
+          },
+          "etr": "2026-04-25T12:12:40Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2026-04-25T09:57:36Z"
+        },
+        "id": "8-0",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/2de92af0-81f0-466b-81c1-3b590efd7bf2/public/cluster-1/02313012.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -97.85524,
+              30.21965
+            ],
+            [
+              -97.85568,
+              30.21983
+            ],
+            [
+              -97.85694,
+              30.22036
+            ],
+            [
+              -97.85695,
+              30.22054
+            ],
+            [
+              -97.8568,
+              30.22078
+            ],
+            [
+              -97.85661,
+              30.22092
+            ],
+            [
+              -97.85359,
+              30.22175
+            ],
+            [
+              -97.85341,
+              30.22032
+            ],
+            [
+              -97.8538,
+              30.22002
+            ],
+            [
+              -97.85524,
+              30.21965
+            ]
+          ]
+        ],
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
@@ -18,24 +93,24 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "es-US": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
+            "orig": "En Route"
           },
           "cust_a": {
-            "val": 2
+            "val": 38
           },
-          "etr": "2026-04-25T11:42:16Z",
+          "etr": "2026-04-25T13:06:32Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-04-25T09:22:02Z"
+          "start_time": "2026-04-25T10:05:44Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/4fb7aa24-f709-4d42-bd01-6af8c4013d37/public/cluster-1/0231301.json",
+        "id": "8-1",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/2de92af0-81f0-466b-81c1-3b590efd7bf2/public/cluster-1/02313012.json",
         "title": "Area Outage"
       },
       "type": "Feature"
