@@ -21,16 +21,16 @@
             "orig": "N/A"
           },
           "cust_a": {
-            "val": 34
+            "val": 1
           },
-          "etr": "ETR-EXP",
+          "etr": "2026-05-16T06:45:39Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-05-15T16:56Z"
+          "start_time": "2026-05-16T04:30:35Z"
         },
-        "id": "9-0",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/bc0027c6-d429-4534-b32a-dff3aa55bf26/public/cluster-1/023130120.json",
+        "id": "8-0",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/639836aa-bb1e-4f70-9699-63e682d96f36/public/cluster-1/02313012.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -38,10 +38,34 @@
     {
       "geometry": {
         "coordinates": [
-          -97.66738,
-          30.39605
+          [
+            [
+              -97.8326,
+              30.19825
+            ],
+            [
+              -97.8328,
+              30.19826
+            ],
+            [
+              -97.83256,
+              30.19863
+            ],
+            [
+              -97.83215,
+              30.19858
+            ],
+            [
+              -97.83219,
+              30.19828
+            ],
+            [
+              -97.8326,
+              30.19825
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
@@ -53,24 +77,24 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "es-US": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
+            "orig": "En Route"
           },
           "cust_a": {
-            "val": 1
+            "val": 7
           },
-          "etr": "2026-05-16T03:21:06Z",
+          "etr": "2026-05-16T06:33:44Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-05-16T01:05Z"
+          "start_time": "2026-05-16T04:13:30Z"
         },
-        "id": "9-0",
-        "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/bc0027c6-d429-4534-b32a-dff3aa55bf26/public/cluster-1/023130121.json",
+        "id": "8-1",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/639836aa-bb1e-4f70-9699-63e682d96f36/public/cluster-1/02313012.json",
         "title": "Area Outage"
       },
       "type": "Feature"
