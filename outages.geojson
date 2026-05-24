@@ -3,79 +3,69 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            [
-              -97.77483,
-              30.32081
-            ],
-            [
-              -97.77512,
-              30.32152
-            ],
-            [
-              -97.77739,
-              30.32805
-            ],
-            [
-              -97.77913,
-              30.33366
-            ],
-            [
-              -97.77775,
-              30.33899
-            ],
-            [
-              -97.77752,
-              30.33909
-            ],
-            [
-              -97.77683,
-              30.33834
-            ],
-            [
-              -97.77499,
-              30.33442
-            ],
-            [
-              -97.77433,
-              30.32451
-            ],
-            [
-              -97.77483,
-              30.32081
-            ]
-          ]
+          -97.75836,
+          30.41244
         ],
-        "type": "Polygon"
+        "type": "Point"
       },
       "properties": {
         "desc": {
-          "cause": {
-            "EN-US": "Under Investigation",
-            "ES-ES": "Investigaci\u00f3n en curso",
-            "es-US": "Investigaci\u00f3n en curso",
-            "orig": "No Selection"
-          },
+          "cause": {},
           "cluster": false,
           "comments": null,
-          "crew_icon": true,
+          "crew_icon": false,
           "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
-            "orig": "Onsite"
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
           },
           "cust_a": {
-            "val": 58
+            "val": 1
           },
-          "etr": "2026-05-24T17:52:19Z",
+          "etr": "2026-05-24T19:34:09Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-05-24T15:43:38Z"
+          "start_time": "2026-05-24T17:19:06Z"
         },
-        "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/501f08a9-27e5-46a0-83a6-40d789359ce1/public/cluster-1/0231301.json",
+        "id": "12-0",
+        "source": "https://kubra.io/cluster-data/113/20d293c6-08fd-41b3-b96b-d2f522c74990/b0193e31-8e13-448c-aeed-699ba730eed8/public/cluster-1/023130120311.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.73569,
+          30.35421
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {},
+          "cluster": false,
+          "comments": null,
+          "crew_icon": false,
+          "crew_status": {
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
+          },
+          "cust_a": {
+            "val": 1
+          },
+          "etr": "2026-05-24T19:31:28Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2026-05-24T17:16:26Z"
+        },
+        "id": "12-0",
+        "source": "https://kubra.io/cluster-data/313/20d293c6-08fd-41b3-b96b-d2f522c74990/b0193e31-8e13-448c-aeed-699ba730eed8/public/cluster-1/023130120313.json",
         "title": "Area Outage"
       },
       "type": "Feature"
