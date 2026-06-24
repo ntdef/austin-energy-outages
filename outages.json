@@ -1,18 +1,47 @@
 [
   {
-    "lat": 30.4104,
-    "lon": -97.93491,
-    "source": "https://kubra.io/cluster-data/030/20d293c6-08fd-41b3-b96b-d2f522c74990/8f0f5385-f6c9-4dce-a943-34daa4cca0df/public/cluster-1/02313012030.json",
-    "cause": "Under Investigation",
-    "cause_orig": "No Selection",
+    "lat": null,
+    "lon": [
+      [
+        -97.74944,
+        30.24211
+      ],
+      [
+        -97.74958,
+        30.24219
+      ],
+      [
+        -97.74975,
+        30.24228
+      ],
+      [
+        -97.74943,
+        30.24272
+      ],
+      [
+        -97.74904,
+        30.24254
+      ],
+      [
+        -97.74912,
+        30.24236
+      ],
+      [
+        -97.74944,
+        30.24211
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/cb795dfc-b199-4a3c-801d-3939a6062a69/public/cluster-1/0231301203.json",
+    "cause": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+    "cause_orig": "Planned",
     "cluster": false,
-    "crew_status": "Pending",
-    "crew_status_orig": "N/A",
-    "start_time": "2026-06-24T15:14Z",
-    "etr": "2026-06-24T17:30:58Z",
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "Onsite",
+    "start_time": "2026-06-24T14:29:27Z",
+    "etr": "ETR-EXP",
     "n_out": 1,
-    "type_id": "11-0",
-    "_id": "30.4104-97.93491"
+    "type_id": "10-0",
+    "_id": "null[[-97.74944,30.24211],[-97.74958,30.24219],[-97.74975,30.24228],[-97.74943,30.24272],[-97.74904,30.24254],[-97.74912,30.24236],[-97.74944,30.24211]]"
   },
   {
     "lat": null,
@@ -46,7 +75,7 @@
         30.28823
       ]
     ],
-    "source": "https://kubra.io/cluster-data/011/20d293c6-08fd-41b3-b96b-d2f522c74990/8f0f5385-f6c9-4dce-a943-34daa4cca0df/public/cluster-1/02313012033110.json",
+    "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/cb795dfc-b199-4a3c-801d-3939a6062a69/public/cluster-1/0231301203.json",
     "cause": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
     "cause_orig": "Planned",
     "cluster": false,
@@ -55,171 +84,63 @@
     "start_time": "2026-06-24T14:04:24Z",
     "etr": "ETR-EXP",
     "n_out": 1,
-    "type_id": "14-0",
+    "type_id": "10-1",
     "_id": "null[[-97.77101,30.28823],[-97.77146,30.28844],[-97.77138,30.28866],[-97.77122,30.28882],[-97.77088,30.28884],[-97.77064,30.28874],[-97.77101,30.28823]]"
-  },
-  {
-    "lat": 30.2875,
-    "lon": -97.7462,
-    "source": "https://kubra.io/cluster-data/111/20d293c6-08fd-41b3-b96b-d2f522c74990/8f0f5385-f6c9-4dce-a943-34daa4cca0df/public/cluster-1/02313012033111.json",
-    "cause": null,
-    "cause_orig": "Switching order",
-    "cluster": false,
-    "crew_status": "Pending",
-    "crew_status_orig": "N/A",
-    "start_time": "2026-06-24T12:42:25Z",
-    "etr": "ETR-EXP",
-    "n_out": 1,
-    "type_id": "14-0",
-    "_id": "30.2875-97.7462"
-  },
-  {
-    "lat": 30.28093,
-    "lon": -97.74574,
-    "source": "https://kubra.io/cluster-data/111/20d293c6-08fd-41b3-b96b-d2f522c74990/8f0f5385-f6c9-4dce-a943-34daa4cca0df/public/cluster-1/02313012033111.json",
-    "cause": null,
-    "cause_orig": "Switching order",
-    "cluster": false,
-    "crew_status": "Pending",
-    "crew_status_orig": "N/A",
-    "start_time": "2026-06-24T12:42:26Z",
-    "etr": "ETR-EXP",
-    "n_out": 1,
-    "type_id": "14-1",
-    "_id": "30.28093-97.74574"
-  },
-  {
-    "lat": 30.28521,
-    "lon": -97.74332,
-    "source": "https://kubra.io/cluster-data/111/20d293c6-08fd-41b3-b96b-d2f522c74990/8f0f5385-f6c9-4dce-a943-34daa4cca0df/public/cluster-1/02313012033111.json",
-    "cause": null,
-    "cause_orig": "Switching order",
-    "cluster": false,
-    "crew_status": "Pending",
-    "crew_status_orig": "N/A",
-    "start_time": "2026-06-24T12:42:25Z",
-    "etr": "ETR-EXP",
-    "n_out": 1,
-    "type_id": "14-2",
-    "_id": "30.28521-97.74332"
-  },
-  {
-    "lat": 30.25955,
-    "lon": -97.74705,
-    "source": "https://kubra.io/cluster-data/311/20d293c6-08fd-41b3-b96b-d2f522c74990/8f0f5385-f6c9-4dce-a943-34daa4cca0df/public/cluster-1/02313012033113.json",
-    "cause": null,
-    "cause_orig": null,
-    "cluster": true,
-    "crew_status": null,
-    "crew_status_orig": null,
-    "start_time": "2026-06-24T12:41:04Z",
-    "etr": "ETR-EXP",
-    "n_out": 2,
-    "type_id": "14-0",
-    "_id": "30.25955-97.74705"
-  },
-  {
-    "lat": 30.26987,
-    "lon": -97.74627,
-    "source": "https://kubra.io/cluster-data/311/20d293c6-08fd-41b3-b96b-d2f522c74990/8f0f5385-f6c9-4dce-a943-34daa4cca0df/public/cluster-1/02313012033113.json",
-    "cause": null,
-    "cause_orig": "Switching order",
-    "cluster": false,
-    "crew_status": "Pending",
-    "crew_status_orig": "N/A",
-    "start_time": "2026-06-24T12:42:25Z",
-    "etr": "ETR-EXP",
-    "n_out": 1,
-    "type_id": "14-1",
-    "_id": "30.26987-97.74627"
-  },
-  {
-    "lat": 30.25891,
-    "lon": -97.75254,
-    "source": "https://kubra.io/cluster-data/313/20d293c6-08fd-41b3-b96b-d2f522c74990/8f0f5385-f6c9-4dce-a943-34daa4cca0df/public/cluster-1/0231301203313.json",
-    "cause": null,
-    "cause_orig": "Switching order",
-    "cluster": false,
-    "crew_status": "Pending",
-    "crew_status_orig": "N/A",
-    "start_time": "2026-06-24T12:41:05Z",
-    "etr": "ETR-EXP",
-    "n_out": 1,
-    "type_id": "13-0",
-    "_id": "30.25891-97.75254"
   },
   {
     "lat": null,
     "lon": [
       [
-        -97.74944,
-        30.24211
+        -97.83681,
+        30.20767
       ],
       [
-        -97.74958,
-        30.24219
+        -97.83967,
+        30.20888
       ],
       [
-        -97.74975,
-        30.24228
+        -97.83994,
+        30.2091
       ],
       [
-        -97.74943,
-        30.24272
+        -97.83982,
+        30.2093
       ],
       [
-        -97.74904,
-        30.24254
+        -97.83965,
+        30.20929
       ],
       [
-        -97.74912,
-        30.24236
+        -97.8381,
+        30.20915
       ],
       [
-        -97.74944,
-        30.24211
+        -97.83772,
+        30.20911
+      ],
+      [
+        -97.83607,
+        30.20867
+      ],
+      [
+        -97.83626,
+        30.20834
+      ],
+      [
+        -97.83681,
+        30.20767
       ]
     ],
-    "source": "https://kubra.io/cluster-data/313/20d293c6-08fd-41b3-b96b-d2f522c74990/8f0f5385-f6c9-4dce-a943-34daa4cca0df/public/cluster-1/0231301203313.json",
-    "cause": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
-    "cause_orig": "Planned",
-    "cluster": false,
-    "crew_status": "One or more crews have been assigned. ",
-    "crew_status_orig": "Onsite",
-    "start_time": "2026-06-24T14:29:27Z",
-    "etr": "2026-06-24T16:44:27Z",
-    "n_out": 1,
-    "type_id": "13-1",
-    "_id": "null[[-97.74944,30.24211],[-97.74958,30.24219],[-97.74975,30.24228],[-97.74943,30.24272],[-97.74904,30.24254],[-97.74912,30.24236],[-97.74944,30.24211]]"
-  },
-  {
-    "lat": 30.21714,
-    "lon": -97.82805,
-    "source": "https://kubra.io/cluster-data/233/20d293c6-08fd-41b3-b96b-d2f522c74990/8f0f5385-f6c9-4dce-a943-34daa4cca0df/public/cluster-1/023130120332.json",
+    "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/cb795dfc-b199-4a3c-801d-3939a6062a69/public/cluster-1/0231301203.json",
     "cause": "Under Investigation",
     "cause_orig": "No Selection",
     "cluster": false,
     "crew_status": "One or more crews have been assigned. ",
     "crew_status_orig": "Onsite",
-    "start_time": "2026-06-24T14:21Z",
-    "etr": "2026-06-24T16:41:22Z",
+    "start_time": "2026-06-24T16:38:39Z",
+    "etr": "2026-06-24T19:42:51Z",
     "n_out": 1,
-    "type_id": "12-0",
-    "_id": "30.21714-97.82805"
-  },
-  {
-    "lat": 30.20902,
-    "lon": -97.67201,
-    "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/8f0f5385-f6c9-4dce-a943-34daa4cca0df/public/cluster-1/023130121.json",
-    "cause": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
-    "cause_orig": "Planned",
-    "cluster": false,
-    "crew_status": "One or more crews have been assigned. ",
-    "crew_status_orig": "Onsite",
-    "start_time": "2026-06-24T14:56Z",
-    "etr": "2026-06-24T15:36:43Z",
-    "n_out": 1,
-    "type_id": "9-0",
-    "_id": "30.20902-97.67201"
+    "type_id": "10-2",
+    "_id": "null[[-97.83681,30.20767],[-97.83967,30.20888],[-97.83994,30.2091],[-97.83982,30.2093],[-97.83965,30.20929],[-97.8381,30.20915],[-97.83772,30.20911],[-97.83607,30.20867],[-97.83626,30.20834],[-97.83681,30.20767]]"
   }
 ]
