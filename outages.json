@@ -1,23 +1,59 @@
 [
   {
-    "lat": 30.31092,
-    "lon": -97.76521,
-    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/08d0121c-1876-4e84-a479-6ed3933f7eca/public/cluster-1/023130120.json",
+    "lat": null,
+    "lon": [
+      [
+        -97.7655,
+        30.3103
+      ],
+      [
+        -97.76521,
+        30.31092
+      ],
+      [
+        -97.7648,
+        30.31063
+      ],
+      [
+        -97.76501,
+        30.31032
+      ],
+      [
+        -97.7655,
+        30.3103
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/3f62c592-3e0e-4faf-8d47-1e6b2f1e1dfb/public/cluster-1/023130120.json",
     "cause": "Under Investigation",
     "cause_orig": "No Selection",
     "cluster": false,
     "crew_status": "One or more crews have been assigned. ",
-    "crew_status_orig": "En Route",
+    "crew_status_orig": "Onsite",
     "start_time": "2026-08-12T21:06:04Z",
-    "etr": "2026-08-12T23:22:09Z",
+    "etr": "2026-08-13T00:43:48Z",
     "n_out": 1,
     "type_id": "9-0",
-    "_id": "30.31092-97.76521"
+    "_id": "null[[-97.7655,30.3103],[-97.76521,30.31092],[-97.7648,30.31063],[-97.76501,30.31032],[-97.7655,30.3103]]"
+  },
+  {
+    "lat": 30.37925,
+    "lon": -97.65325,
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/3f62c592-3e0e-4faf-8d47-1e6b2f1e1dfb/public/cluster-1/02313012120.json",
+    "cause": "An obstruction to the electrical grid has occurred (e.g., a traffic collision). Restoration time depends on the extent of the damage.",
+    "cause_orig": "Interference",
+    "cluster": false,
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "Onsite",
+    "start_time": "2026-08-12T19:10Z",
+    "etr": "2026-08-13T00:30:24Z",
+    "n_out": 1,
+    "type_id": "11-0",
+    "_id": "30.37925-97.65325"
   },
   {
     "lat": 30.38769,
     "lon": -97.67313,
-    "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/08d0121c-1876-4e84-a479-6ed3933f7eca/public/cluster-1/023130121.json",
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/3f62c592-3e0e-4faf-8d47-1e6b2f1e1dfb/public/cluster-1/02313012120.json",
     "cause": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
     "cause_orig": "Planned",
     "cluster": false,
@@ -26,55 +62,43 @@
     "start_time": "2026-08-12T15:00Z",
     "etr": "ETR-EXP",
     "n_out": 1,
-    "type_id": "9-0",
+    "type_id": "11-1",
     "_id": "30.38769-97.67313"
   },
   {
     "lat": null,
     "lon": [
       [
-        -97.68038,
-        30.30295
+        -97.65057,
+        30.15431
       ],
       [
-        -97.68024,
-        30.30333
+        -97.6511,
+        30.15451
       ],
       [
-        -97.68003,
-        30.30366
+        -97.65171,
+        30.15481
       ],
       [
-        -97.67985,
-        30.30359
+        -97.65138,
+        30.15469
       ],
       [
-        -97.67937,
-        30.30335
-      ],
-      [
-        -97.6795,
-        30.30313
-      ],
-      [
-        -97.67964,
-        30.30299
-      ],
-      [
-        -97.68038,
-        30.30295
+        -97.65057,
+        30.15431
       ]
     ],
-    "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/08d0121c-1876-4e84-a479-6ed3933f7eca/public/cluster-1/023130121.json",
+    "source": "https://kubra.io/cluster-data/221/20d293c6-08fd-41b3-b96b-d2f522c74990/3f62c592-3e0e-4faf-8d47-1e6b2f1e1dfb/public/cluster-1/02313012122.json",
     "cause": "Under Investigation",
     "cause_orig": "No Selection",
     "cluster": false,
     "crew_status": "One or more crews have been assigned. ",
     "crew_status_orig": "Onsite",
-    "start_time": "2026-08-12T17:22Z",
-    "etr": "ETR-EXP",
+    "start_time": "2026-08-12T21:48Z",
+    "etr": "2026-08-13T00:08:21Z",
     "n_out": 1,
-    "type_id": "9-1",
-    "_id": "null[[-97.68038,30.30295],[-97.68024,30.30333],[-97.68003,30.30366],[-97.67985,30.30359],[-97.67937,30.30335],[-97.6795,30.30313],[-97.67964,30.30299],[-97.68038,30.30295]]"
+    "type_id": "11-0",
+    "_id": "null[[-97.65057,30.15431],[-97.6511,30.15451],[-97.65171,30.15481],[-97.65138,30.15469],[-97.65057,30.15431]]"
   }
 ]
