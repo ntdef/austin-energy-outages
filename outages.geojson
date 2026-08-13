@@ -3,8 +3,8 @@
     {
       "geometry": {
         "coordinates": [
-          -97.70609,
-          30.34329
+          -97.74423,
+          30.30256
         ],
         "type": "Point"
       },
@@ -28,14 +28,14 @@
           "cust_a": {
             "val": 2
           },
-          "etr": "2026-08-13T08:14:34Z",
+          "etr": "2026-08-13T11:07:30Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-08-13T06:25:14Z"
+          "start_time": "2026-08-13T08:18:50Z"
         },
-        "id": "10-0",
-        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/8c1bf4e2-3c82-47b7-9bef-b81e2500da12/public/cluster-1/0231301212.json",
+        "id": "12-0",
+        "source": "https://kubra.io/cluster-data/313/20d293c6-08fd-41b3-b96b-d2f522c74990/74bc5bd1-de27-4918-988b-e42ed5509361/public/cluster-1/023130120313.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -43,18 +43,34 @@
     {
       "geometry": {
         "coordinates": [
-          -97.73344,
-          30.30859
+          [
+            [
+              -97.77404,
+              30.3687
+            ],
+            [
+              -97.77469,
+              30.36884
+            ],
+            [
+              -97.7743,
+              30.3688
+            ],
+            [
+              -97.77404,
+              30.3687
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "A tree, branch or vegetation contacted power lines",
-            "ES-ES": "Un \u00e1rbol o rama entro en contacto con los cables",
-            "es-US": "Un \u00e1rbol o rama entro en contacto con los cables",
-            "orig": "Vegetation"
+            "EN-US": "Austin Energy: Maintenance scheduled today in your area may require an interruption in electric service. We apologize for any inconvenience this may cause.",
+            "ES-ES": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "es-US": "Austin Energy: Se realizara mantenimiento hoy en su area y quizas sea necesario interrumpir el servicio electrico. Nos disculpamos por cualquier inconveniente que esto pueda causar.",
+            "orig": "Planned"
           },
           "cluster": false,
           "comments": null,
@@ -62,20 +78,20 @@
           "crew_status": {
             "EN-US": "One or more crews have been assigned. ",
             "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
-            "orig": "En Route"
+            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
+            "orig": "Onsite"
           },
           "cust_a": {
-            "val": 1
+            "val": 3
           },
-          "etr": "ETR-EXP",
+          "etr": "2026-08-13T10:55:45Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-08-13T03:37:55Z"
+          "start_time": "2026-08-13T08:48:30Z"
         },
-        "id": "10-1",
-        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/8c1bf4e2-3c82-47b7-9bef-b81e2500da12/public/cluster-1/0231301212.json",
+        "id": "12-1",
+        "source": "https://kubra.io/cluster-data/313/20d293c6-08fd-41b3-b96b-d2f522c74990/74bc5bd1-de27-4918-988b-e42ed5509361/public/cluster-1/023130120313.json",
         "title": "Area Outage"
       },
       "type": "Feature"
