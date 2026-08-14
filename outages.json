@@ -1,23 +1,52 @@
 [
   {
-    "lat": 30.36395,
-    "lon": -97.74752,
-    "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/fc98f196-a5fa-49a8-9b20-8ad8e9576891/public/cluster-1/0231301203.json",
+    "lat": null,
+    "lon": [
+      [
+        -97.74728,
+        30.36328
+      ],
+      [
+        -97.74752,
+        30.36345
+      ],
+      [
+        -97.74755,
+        30.36372
+      ],
+      [
+        -97.74752,
+        30.36395
+      ],
+      [
+        -97.74713,
+        30.36381
+      ],
+      [
+        -97.74712,
+        30.36359
+      ],
+      [
+        -97.74728,
+        30.36328
+      ]
+    ],
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/38b9e6a1-9871-442f-8d2d-883bcf37ce65/public/cluster-1/023130120.json",
     "cause": "An obstruction to the electrical grid has occurred (e.g., a traffic collision). Restoration time depends on the extent of the damage.",
     "cause_orig": "Interference",
     "cluster": false,
-    "crew_status": "Pending",
-    "crew_status_orig": "N/A",
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "Onsite",
     "start_time": "2026-08-14T05:15:41Z",
-    "etr": "ETR-EXP",
+    "etr": "2026-08-14T20:29:00Z",
     "n_out": 1,
-    "type_id": "10-0",
-    "_id": "30.36395-97.74752"
+    "type_id": "9-0",
+    "_id": "null[[-97.74728,30.36328],[-97.74752,30.36345],[-97.74755,30.36372],[-97.74752,30.36395],[-97.74713,30.36381],[-97.74712,30.36359],[-97.74728,30.36328]]"
   },
   {
     "lat": 30.28897,
     "lon": -97.74878,
-    "source": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/fc98f196-a5fa-49a8-9b20-8ad8e9576891/public/cluster-1/0231301203.json",
+    "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/38b9e6a1-9871-442f-8d2d-883bcf37ce65/public/cluster-1/023130120.json",
     "cause": null,
     "cause_orig": null,
     "cluster": false,
@@ -26,7 +55,7 @@
     "start_time": "2026-08-14T02:36Z",
     "etr": "ETR-EXP",
     "n_out": 1,
-    "type_id": "10-1",
+    "type_id": "9-1",
     "_id": "30.28897-97.74878"
   }
 ]
