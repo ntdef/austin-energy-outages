@@ -2,7 +2,7 @@
   {
     "lat": 30.32797,
     "lon": -97.96672,
-    "source": "https://kubra.io/cluster-data/030/20d293c6-08fd-41b3-b96b-d2f522c74990/9297790f-4c41-45ca-a840-3fc4c5ff6007/public/cluster-1/02313012030.json",
+    "source": "https://kubra.io/cluster-data/030/20d293c6-08fd-41b3-b96b-d2f522c74990/3e03f41c-056b-41aa-a575-281f698ab55e/public/cluster-1/02313012030.json",
     "cause": "Electrical equipment failure",
     "cause_orig": "Equipment",
     "cluster": false,
@@ -42,12 +42,12 @@
         30.34447
       ]
     ],
-    "source": "https://kubra.io/cluster-data/130/20d293c6-08fd-41b3-b96b-d2f522c74990/9297790f-4c41-45ca-a840-3fc4c5ff6007/public/cluster-1/02313012031.json",
+    "source": "https://kubra.io/cluster-data/130/20d293c6-08fd-41b3-b96b-d2f522c74990/3e03f41c-056b-41aa-a575-281f698ab55e/public/cluster-1/02313012031.json",
     "cause": "Electrical equipment failure",
     "cause_orig": "Equipment",
     "cluster": false,
-    "crew_status": "Pending",
-    "crew_status_orig": "N/A",
+    "crew_status": "One or more crews have been assigned. ",
+    "crew_status_orig": "En Route",
     "start_time": "2026-08-18T22:46:42Z",
     "etr": "2026-08-19T02:49:00Z",
     "n_out": 1,
@@ -55,9 +55,24 @@
     "_id": "null[[-97.74831,30.34447],[-97.74923,30.34487],[-97.74899,30.34534],[-97.74826,30.34504],[-97.74811,30.34494],[-97.74831,30.34447]]"
   },
   {
+    "lat": 30.29589,
+    "lon": -97.73489,
+    "source": "https://kubra.io/cluster-data/330/20d293c6-08fd-41b3-b96b-d2f522c74990/3e03f41c-056b-41aa-a575-281f698ab55e/public/cluster-1/02313012033.json",
+    "cause": "Under Investigation",
+    "cause_orig": "No Selection",
+    "cluster": false,
+    "crew_status": "Pending",
+    "crew_status_orig": "N/A",
+    "start_time": "2026-08-18T23:21Z",
+    "etr": "2026-08-19T01:39:17Z",
+    "n_out": 1,
+    "type_id": "11-0",
+    "_id": "30.29589-97.73489"
+  },
+  {
     "lat": 30.2145,
     "lon": -97.75696,
-    "source": "https://kubra.io/cluster-data/330/20d293c6-08fd-41b3-b96b-d2f522c74990/9297790f-4c41-45ca-a840-3fc4c5ff6007/public/cluster-1/02313012033.json",
+    "source": "https://kubra.io/cluster-data/330/20d293c6-08fd-41b3-b96b-d2f522c74990/3e03f41c-056b-41aa-a575-281f698ab55e/public/cluster-1/02313012033.json",
     "cause": null,
     "cause_orig": null,
     "cluster": false,
@@ -66,15 +81,15 @@
     "start_time": "2026-08-18T16:44:11Z",
     "etr": "ETR-EXP",
     "n_out": 1,
-    "type_id": "11-0",
+    "type_id": "11-1",
     "_id": "30.2145-97.75696"
   },
   {
     "lat": 30.4215,
     "lon": -97.62878,
-    "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/9297790f-4c41-45ca-a840-3fc4c5ff6007/public/cluster-1/023130121.json",
-    "cause": "Under Investigation",
-    "cause_orig": "No Selection",
+    "source": "https://kubra.io/cluster-data/121/20d293c6-08fd-41b3-b96b-d2f522c74990/3e03f41c-056b-41aa-a575-281f698ab55e/public/cluster-1/023130121.json",
+    "cause": null,
+    "cause_orig": null,
     "cluster": false,
     "crew_status": "One or more crews have been assigned. ",
     "crew_status_orig": "Onsite",
@@ -83,5 +98,20 @@
     "n_out": 1,
     "type_id": "9-0",
     "_id": "30.4215-97.62878"
+  },
+  {
+    "lat": 30.13906,
+    "lon": -97.7641,
+    "source": "https://kubra.io/cluster-data/221/20d293c6-08fd-41b3-b96b-d2f522c74990/3e03f41c-056b-41aa-a575-281f698ab55e/public/cluster-1/023130122.json",
+    "cause": null,
+    "cause_orig": null,
+    "cluster": false,
+    "crew_status": "Pending",
+    "crew_status_orig": "N/A",
+    "start_time": "2026-08-18T23:17:03Z",
+    "etr": "2026-08-19T01:39:21Z",
+    "n_out": 1,
+    "type_id": "9-0",
+    "_id": "30.13906-97.7641"
   }
 ]
