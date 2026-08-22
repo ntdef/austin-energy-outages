@@ -3,94 +3,10 @@
     {
       "geometry": {
         "coordinates": [
-          -97.75575,
-          30.21069
+          -97.83411,
+          30.2038
         ],
         "type": "Point"
-      },
-      "properties": {
-        "desc": {
-          "cause": {
-            "EN-US": "An obstruction to the electrical grid has occurred (e.g., a traffic collision). Restoration time depends on the extent of the damage.",
-            "ES-ES": "Se ha producido una obstrucci\u00f3n a la red el\u00e9ctrica (por ejemplo, un colisi\u00f3n de tr\u00e1fico). El tiempo de restauraci\u00f3n depende de la extensi\u00f3n del da\u00f1o.",
-            "es-US": "Se ha producido una obstrucci\u00f3n a la red el\u00e9ctrica (por ejemplo, un colisi\u00f3n de tr\u00e1fico). El tiempo de restauraci\u00f3n depende de la extensi\u00f3n del da\u00f1o.",
-            "orig": "Interference"
-          },
-          "cluster": false,
-          "comments": null,
-          "crew_icon": true,
-          "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
-            "orig": "Onsite"
-          },
-          "cust_a": {
-            "val": 2
-          },
-          "etr": "2026-08-22T21:58:38Z",
-          "etr_confidence": null,
-          "inc_id": null,
-          "n_out": 1,
-          "start_time": "2026-08-22T09:43:38Z"
-        },
-        "id": "11-0",
-        "source": "https://kubra.io/cluster-data/330/20d293c6-08fd-41b3-b96b-d2f522c74990/37c92265-ca51-4355-906b-d71e8168daf1/public/cluster-1/02313012033.json",
-        "title": "Area Outage"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -97.78079,
-              30.21976
-            ],
-            [
-              -97.78115,
-              30.21992
-            ],
-            [
-              -97.77974,
-              30.22205
-            ],
-            [
-              -97.779,
-              30.22214
-            ],
-            [
-              -97.77907,
-              30.22178
-            ],
-            [
-              -97.77911,
-              30.22163
-            ],
-            [
-              -97.77938,
-              30.22118
-            ],
-            [
-              -97.77974,
-              30.2206
-            ],
-            [
-              -97.78004,
-              30.22019
-            ],
-            [
-              -97.78024,
-              30.21993
-            ],
-            [
-              -97.78079,
-              30.21976
-            ]
-          ]
-        ],
-        "type": "Polygon"
       },
       "properties": {
         "desc": {
@@ -102,24 +18,24 @@
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": true,
+          "crew_icon": false,
           "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
-            "orig": "Onsite"
+            "EN-US": "Pending",
+            "ES-ES": "Pendiente",
+            "es-US": "Pendiente",
+            "orig": "N/A"
           },
           "cust_a": {
-            "val": 41
+            "val": 2
           },
-          "etr": "2026-08-22T17:35:53Z",
+          "etr": "2026-08-22T17:32:22Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-08-22T13:29:16Z"
+          "start_time": "2026-08-22T15:17:20Z"
         },
-        "id": "11-1",
-        "source": "https://kubra.io/cluster-data/330/20d293c6-08fd-41b3-b96b-d2f522c74990/37c92265-ca51-4355-906b-d71e8168daf1/public/cluster-1/02313012033.json",
+        "id": "7-0",
+        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/356d2a0f-aa1d-42d9-9a8a-a52f274d8d7c/public/cluster-1/0231301.json",
         "title": "Area Outage"
       },
       "type": "Feature"
