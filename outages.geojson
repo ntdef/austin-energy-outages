@@ -3,86 +3,50 @@
     {
       "geometry": {
         "coordinates": [
-          [
-            [
-              -97.8552,
-              30.16843
-            ],
-            [
-              -97.86114,
-              30.17023
-            ],
-            [
-              -97.86138,
-              30.17031
-            ],
-            [
-              -97.86158,
-              30.1705
-            ],
-            [
-              -97.86204,
-              30.17126
-            ],
-            [
-              -97.86161,
-              30.17175
-            ],
-            [
-              -97.86141,
-              30.17197
-            ],
-            [
-              -97.86122,
-              30.17219
-            ],
-            [
-              -97.86078,
-              30.17248
-            ],
-            [
-              -97.86041,
-              30.17255
-            ],
-            [
-              -97.85567,
-              30.17289
-            ],
-            [
-              -97.85519,
-              30.1729
-            ],
-            [
-              -97.85512,
-              30.17221
-            ],
-            [
-              -97.8551,
-              30.1718
-            ],
-            [
-              -97.8551,
-              30.17138
-            ],
-            [
-              -97.85514,
-              30.1695
-            ],
-            [
-              -97.85516,
-              30.16915
-            ],
-            [
-              -97.85517,
-              30.1687
-            ],
-            [
-              -97.8552,
-              30.16843
-            ]
-          ]
+          -97.74453,
+          30.31658
         ],
-        "type": "Polygon"
+        "type": "Point"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "A tree, branch or vegetation contacted power lines",
+            "ES-ES": "Un \u00e1rbol o rama entro en contacto con los cables",
+            "es-US": "Un \u00e1rbol o rama entro en contacto con los cables",
+            "orig": "Vegetation"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
+            "orig": "En Route"
+          },
+          "cust_a": {
+            "val": 1
+          },
+          "etr": "2026-08-30T17:47:10Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2026-08-30T15:24:37Z"
+        },
+        "id": "8-0",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/94e3dc88-2ac9-4ff8-8c1d-55279eed6134/public/cluster-1/02313012.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.73481,
+          30.1341
+        ],
+        "type": "Point"
       },
       "properties": {
         "desc": {
@@ -98,60 +62,20 @@
           "crew_status": {
             "EN-US": "One or more crews have been assigned. ",
             "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
-            "es-US": "Una o m\u00e1s tripulaciones est\u00e1n en camino.  ",
-            "orig": "En Route"
-          },
-          "cust_a": {
-            "val": 86
-          },
-          "etr": "2026-08-30T16:04:52Z",
-          "etr_confidence": null,
-          "inc_id": null,
-          "n_out": 1,
-          "start_time": "2026-08-30T13:00:43Z"
-        },
-        "id": "9-0",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/95efdee9-05ff-43e5-8a13-d60e314a378e/public/cluster-1/023130120.json",
-        "title": "Area Outage"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -97.70724,
-          30.33466
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "desc": {
-          "cause": {
-            "EN-US": "Electrical equipment failure",
-            "ES-ES": "Falla del equipo el\u00e9ctrico",
-            "es-US": "Falla del equipo el\u00e9ctrico",
-            "orig": "Equipment"
-          },
-          "cluster": false,
-          "comments": null,
-          "crew_icon": true,
-          "crew_status": {
-            "EN-US": "One or more crews have been assigned. ",
-            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
             "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
             "orig": "Onsite"
           },
           "cust_a": {
-            "val": 8
+            "val": 2
           },
-          "etr": "ETR-EXP",
+          "etr": "2026-08-30T19:32:12Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-08-30T08:53Z"
+          "start_time": "2026-08-30T17:05Z"
         },
-        "id": "10-0",
-        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/95efdee9-05ff-43e5-8a13-d60e314a378e/public/cluster-1/0231301212.json",
+        "id": "8-1",
+        "source": "https://kubra.io/cluster-data/210/20d293c6-08fd-41b3-b96b-d2f522c74990/94e3dc88-2ac9-4ff8-8c1d-55279eed6134/public/cluster-1/02313012.json",
         "title": "Area Outage"
       },
       "type": "Feature"
