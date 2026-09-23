@@ -5,32 +5,32 @@
         "coordinates": [
           [
             [
-              -97.76002,
-              30.35831
+              -97.7606,
+              30.3451
             ],
             [
-              -97.76087,
-              30.35868
+              -97.7609,
+              30.3455
             ],
             [
-              -97.7608,
-              30.35934
-            ],
-            [
-              -97.75988,
-              30.35857
+              -97.76015,
+              30.34571
             ],
             [
               -97.7599,
-              30.35851
+              30.34559
             ],
             [
-              -97.75998,
-              30.35838
+              -97.76012,
+              30.34537
             ],
             [
-              -97.76002,
-              30.35831
+              -97.76033,
+              30.34519
+            ],
+            [
+              -97.7606,
+              30.3451
             ]
           ]
         ],
@@ -39,10 +39,10 @@
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "Under Investigation",
-            "ES-ES": "Investigaci\u00f3n en curso",
-            "es-US": "Investigaci\u00f3n en curso",
-            "orig": "No Selection"
+            "EN-US": "An animal came in contact with equipment",
+            "ES-ES": "Un animal entr\u00f3 en contacto con el equipo",
+            "es-US": "Un animal entr\u00f3 en contacto con el equipo",
+            "orig": "Animal"
           },
           "cluster": false,
           "comments": null,
@@ -54,16 +54,16 @@
             "orig": "Onsite"
           },
           "cust_a": {
-            "val": 11
+            "val": 8
           },
-          "etr": "2026-09-23T08:11:20Z",
+          "etr": "ETR-EXP",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-09-23T05:51:36Z"
+          "start_time": "2026-09-23T08:31:35Z"
         },
         "id": "9-0",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/b8a1d79c-3a4d-4f04-9aa4-5603273fd047/public/cluster-1/023130120.json",
+        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/877bccc0-1c5e-476e-b866-500803f7322c/public/cluster-1/023130120.json",
         "title": "Area Outage"
       },
       "type": "Feature"
@@ -73,32 +73,92 @@
         "coordinates": [
           [
             [
-              -97.80813,
-              30.23519
+              -97.71342,
+              30.41287
             ],
             [
-              -97.80843,
-              30.23535
+              -97.71384,
+              30.41297
             ],
             [
-              -97.80833,
-              30.23574
+              -97.71402,
+              30.4133
             ],
             [
-              -97.80809,
-              30.23565
+              -97.71417,
+              30.41361
             ],
             [
-              -97.80791,
-              30.23553
+              -97.71422,
+              30.41376
             ],
             [
-              -97.80813,
-              30.23519
+              -97.71427,
+              30.41407
+            ],
+            [
+              -97.71401,
+              30.41574
+            ],
+            [
+              -97.71381,
+              30.4154
+            ],
+            [
+              -97.71374,
+              30.41521
+            ],
+            [
+              -97.71369,
+              30.41503
+            ],
+            [
+              -97.71342,
+              30.41287
             ]
           ]
         ],
         "type": "Polygon"
+      },
+      "properties": {
+        "desc": {
+          "cause": {
+            "EN-US": "Electrical equipment failure",
+            "ES-ES": "Falla del equipo el\u00e9ctrico",
+            "es-US": "Falla del equipo el\u00e9ctrico",
+            "orig": "Equipment"
+          },
+          "cluster": false,
+          "comments": null,
+          "crew_icon": true,
+          "crew_status": {
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
+            "orig": "Onsite"
+          },
+          "cust_a": {
+            "val": 19
+          },
+          "etr": "2026-09-23T12:15:21Z",
+          "etr_confidence": null,
+          "inc_id": null,
+          "n_out": 1,
+          "start_time": "2026-09-23T10:52:22Z"
+        },
+        "id": "10-0",
+        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/877bccc0-1c5e-476e-b866-500803f7322c/public/cluster-1/0231301212.json",
+        "title": "Area Outage"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -97.68162,
+          30.43222
+        ],
+        "type": "Point"
       },
       "properties": {
         "desc": {
@@ -118,16 +178,16 @@
             "orig": "N/A"
           },
           "cust_a": {
-            "val": 5
+            "val": 1
           },
-          "etr": "2026-09-23T09:17:43Z",
+          "etr": "2026-09-23T14:12:48Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-09-23T06:20Z"
+          "start_time": "2026-09-23T11:56:50Z"
         },
-        "id": "9-1",
-        "source": "https://kubra.io/cluster-data/021/20d293c6-08fd-41b3-b96b-d2f522c74990/b8a1d79c-3a4d-4f04-9aa4-5603273fd047/public/cluster-1/023130120.json",
+        "id": "10-1",
+        "source": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/877bccc0-1c5e-476e-b866-500803f7322c/public/cluster-1/0231301212.json",
         "title": "Area Outage"
       },
       "type": "Feature"
