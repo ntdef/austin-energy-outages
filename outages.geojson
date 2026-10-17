@@ -3,39 +3,67 @@
     {
       "geometry": {
         "coordinates": [
-          -97.68815,
-          30.33434
+          [
+            [
+              -97.7414,
+              30.30199
+            ],
+            [
+              -97.74179,
+              30.30216
+            ],
+            [
+              -97.74194,
+              30.30224
+            ],
+            [
+              -97.74206,
+              30.30235
+            ],
+            [
+              -97.74191,
+              30.30267
+            ],
+            [
+              -97.74123,
+              30.30237
+            ],
+            [
+              -97.7414,
+              30.30199
+            ]
+          ]
         ],
-        "type": "Point"
+        "type": "Polygon"
       },
       "properties": {
         "desc": {
           "cause": {
-            "EN-US": "Under Investigation",
-            "ES-ES": "Investigaci\u00f3n en curso",
-            "es-US": "Investigaci\u00f3n en curso",
-            "orig": "No Selection"
+            "EN-US": "Electrical equipment failure",
+            "ES-ES": "Falla del equipo el\u00e9ctrico",
+            "es-US": "Falla del equipo el\u00e9ctrico",
+            "orig": "Equipment"
           },
           "cluster": false,
           "comments": null,
-          "crew_icon": false,
+          "crew_icon": true,
           "crew_status": {
-            "EN-US": "Pending",
-            "ES-ES": "Pendiente",
-            "es-US": "Pendiente",
-            "orig": "N/A"
+            "EN-US": "One or more crews have been assigned. ",
+            "ES-ES": "Uno o m\u00e1s equipos se ha asignado. ",
+            "es-US": "Uno o m\u00e1s equipos est\u00e1n trabajando en reparaciones. ",
+            "orig": "Onsite"
           },
           "cust_a": {
-            "val": 1
+            "val": 13
           },
-          "etr": "2026-10-17T19:55:43Z",
+          "etr": "2026-10-17T22:22:00Z",
           "etr_confidence": null,
           "inc_id": null,
           "n_out": 1,
-          "start_time": "2026-10-17T17:39Z"
+          "start_time": "2026-10-17T20:38:13Z"
         },
         "id": "7-0",
-        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/43dc5476-0d30-4dcc-b09e-c34274ef3878/public/cluster-1/0231301.json",
+        "source": "https://kubra.io/cluster-data/103/20d293c6-08fd-41b3-b96b-d2f522c74990/728ae2ff-aa66-45c9-9086-1205d9b69efe/public/cluster-1/0231301.json",
         "title": "Area Outage"
       },
       "type": "Feature"
